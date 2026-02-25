@@ -1,0 +1,71 @@
+Bio Bags Website
+=================
+
+Overview
+--------
+Bio Bags Website is a lightweight, static front-end project built with Vite. It provides a simple marketing/presentation site for the "Bio Bags" concept — showcasing product information, brand assets, and minimal interactive behavior via a compact JS/CSS codebase.
+
+Key Features
+------------
+- Clean, responsive single-page layout for showcasing product visuals and copy.
+- Lightweight asset structure with an organized `assets/images` folder for logos and imagery.
+- Minimal JS in `src/main.js` to enable small interactions or analytics hooks.
+
+Tech Stack
+----------
+- Vite: fast development server and build tooling.
+- Vanilla JavaScript: located in `bio-bags-website/src/main.js`.
+- CSS: simple styles in `bio-bags-website/src/main.css`.
+- Static assets: `bio-bags-website/assets/images/logo.jfif`.
+
+Repository Structure
+-------------------
+- `index.html` — Entry HTML for the site (Vite-compatible).
+- `vite.config.js` — Vite configuration for dev/build.
+- `package.json` — npm scripts and dependencies.
+- `bio-bags-website/` — Core site folder:
+  - `assets/images/` — Logos and images.
+  - `src/main.css` — Main stylesheet.
+  - `src/main.js` — Entry JavaScript for interactivity.
+
+Getting Started (Development)
+----------------------------
+1. Install dependencies:
+
+	npm install
+
+2. Run the dev server:
+
+	npm run dev
+
+3. Open the local dev URL shown by Vite (usually `http://localhost:5173`).
+
+Building for Production
+-----------------------
+1. Create an optimized build:
+
+	npm run build
+
+2. Preview the production build locally:
+
+	npm run preview
+
+Notes for Contributors
+----------------------
+- Keep assets small and optimized for web (use compressed JPEG/WEBP/PNG where appropriate).
+- Prefer semantic HTML in `index.html` and keep styles in `src/main.css`.
+- If adding JS behavior, keep it modular and minimal in `src/main.js` to retain fast load times.
+
+Customization
+-------------
+- Replace `assets/images/logo.jfif` with your brand artwork and update references in `index.html`.
+- Edit `src/main.css` to adjust theme colors, spacing, and typography.
+
+Author & License
+----------------
+Add author information and license details here (e.g., MIT) to clarify ownership and reuse terms.
+
+Contact
+-------
+For questions or help developing the site further, include contact info or a repo issue template.
+
