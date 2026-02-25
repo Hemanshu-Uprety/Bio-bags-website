@@ -5,60 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABI Biodegradable Carry Bag Udhyog | Birtamod-Jhapa</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="bio-bags-website/src/main.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-
-        body {
-            font-family: 'Inter', sans-serif;
-            scroll-behavior: smooth;
-        }
-
-        .glass {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(12px);
-        }
-
-        /* ABI Brand Green */
-        .eco-gradient {
-            background: linear-gradient(135deg, #00a651 0%, #008240 100%);
-        }
-
-        .text-eco {
-            color: #00a651;
-        }
-
-        .bg-eco {
-            background-color: #00a651;
-        }
-
-        .border-eco {
-            border-color: #00a651;
-        }
-
-        @keyframes float {
-            0% {
-                transform: translateY(0px);
-            }
-
-            50% {
-                transform: translateY(-10px);
-            }
-
-            100% {
-                transform: translateY(0px);
-            }
-        }
-
-        .float-animation {
-            animation: float 4s ease-in-out infinite;
-        }
-
-        .shadow-eco {
-            box-shadow: 0 4px 6px rgba(0, 166, 81, 0.2);
-        }
-    </style>
 </head>
 
 <body class="bg-slate-50 text-slate-900 overflow-x-hidden">
@@ -67,7 +15,7 @@
     <nav class="fixed w-full z-50 glass border-b border-emerald-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
-                <div class="flex-shrink-0">
+                <div class="shrink-0">
                     <a href="#home" class="flex items-center gap-3">
                         <div
                             class="relative w-14 h-14 flex items-center justify-center p-1 bg-white rounded-full shadow-sm border border-emerald-50">
@@ -80,8 +28,7 @@
                         </div>
                         <div class="flex flex-col leading-none">
                             <span class="text-xl font-black tracking-tighter text-emerald-900 uppercase">ABI</span>
-                            <span
-                                class="text-[10px] font-bold uppercase tracking-[0.1em] text-emerald-600">Biodegradable
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-emerald-600">Biodegradable
                                 Udhyog</span>
                         </div>
                     </a>
@@ -261,7 +208,7 @@
                     <div class="grid gap-6">
                         <div class="flex gap-5 p-4 rounded-2xl hover:bg-slate-50 transition">
                             <div
-                                class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-eco flex-shrink-0">
+                                class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-eco shrink-0">
                                 <i class="fas fa-hand-holding-heart"></i>
                             </div>
                             <div>
@@ -272,7 +219,7 @@
                         </div>
                         <div class="flex gap-5 p-4 rounded-2xl hover:bg-slate-50 transition">
                             <div
-                                class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-eco flex-shrink-0">
+                                class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-eco shrink-0">
                                 <i class="fas fa-shield-virus"></i>
                             </div>
                             <div>
@@ -283,7 +230,7 @@
                         </div>
                         <div class="flex gap-5 p-4 rounded-2xl hover:bg-slate-50 transition">
                             <div
-                                class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-eco flex-shrink-0">
+                                class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-eco shrink-0">
                                 <i class="fas fa-user-shield"></i>
                             </div>
                             <div>
@@ -460,12 +407,7 @@
         </div>
     </footer>
 
-    <script>
-        const btn = document.getElementById('mobile-menu-btn');
-        const menu = document.getElementById('mobile-menu');
-        btn.onclick = () => menu.classList.toggle('hidden');
-        document.querySelectorAll('#mobile-menu a').forEach(l => l.onclick = () => menu.classList.add('hidden'));
-    </script>
+    <script src="bio-bags-website/src/main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+
+/* custom styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+        }
+
+        /* ABI Brand Green */
+        .eco-gradient {
+            background: linear-gradient(135deg, #00a651 0%, #008240 100%);
+        }
+
+        .text-eco {
+            color: #00a651;
+        }
+
+        .bg-eco {
+            background-color: #00a651;
+        }
+
+        .border-eco {
+            border-color: #00a651;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .float-animation {
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .shadow-eco {
+            box-shadow: 0 4px 6px rgba(0, 166, 81, 0.2);
+        }
