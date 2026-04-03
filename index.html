@@ -1,397 +1,394 @@
 <!DOCTYPE html>
-
-<html class="scroll-smooth" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>ABI Bio Bags | Sustainable Packaging Solutions</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              "surface-container-lowest": "#ffffff",
-              "on-tertiary-container": "#eef3ff",
-              "on-error-container": "#93000a",
-              "on-tertiary-fixed": "#0b1c30",
-              "background": "#f8f9ff",
-              "on-secondary-fixed-variant": "#3f465c",
-              "inverse-on-surface": "#eaf1ff",
-              "surface-container-low": "#eff4ff",
-              "primary-container": "#15803d",
-              "surface-dim": "#cbdbf5",
-              "surface-bright": "#f8f9ff",
-              "tertiary": "#48586d",
-              "on-secondary": "#ffffff",
-              "on-background": "#0b1c30",
-              "on-secondary-container": "#5c647a",
-              "inverse-primary": "#79db8d",
-              "secondary-fixed": "#dae2fd",
-              "on-primary-fixed-variant": "#005323",
-              "surface-container": "#e5eeff",
-              "primary-fixed": "#95f8a7",
-              "primary": "#00652c",
-              "error-container": "#ffdad6",
-              "tertiary-fixed-dim": "#b7c8e1",
-              "tertiary-fixed": "#d3e4fe",
-              "on-secondary-fixed": "#131b2e",
-              "secondary-container": "#dae2fd",
-              "surface-variant": "#d3e4fe",
-              "surface-tint": "#006d30",
-              "secondary-fixed-dim": "#bec6e0",
-              "inverse-surface": "#213145",
-              "surface-container-highest": "#d3e4fe",
-              "primary-fixed-dim": "#79db8d",
-              "on-primary-fixed": "#00210a",
-              "secondary": "#565e74",
-              "outline-variant": "#becabc",
-              "surface-container-high": "#dce9ff",
-              "on-surface-variant": "#3f493f",
-              "surface": "#f8f9ff",
-              "tertiary-container": "#607087",
-              "on-tertiary": "#ffffff",
-              "outline": "#6f7a6e",
-              "error": "#ba1a1a",
-              "on-error": "#ffffff",
-              "on-primary": "#ffffff",
-              "on-primary-container": "#d3ffd5",
-              "on-tertiary-fixed-variant": "#38485d",
-              "on-surface": "#0b1c30"
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ABI Bio Bags Udyog — Manufacturer of biodegradable carry bags using PBAT and biofiller. B2B bulk supply for retailers, supermarkets, and distributors." />
+  <title>ABI Bio Bags Udyog | Sustainable Packaging for Business</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            display: ['Fraunces', 'Georgia', 'serif'],
+          },
+          colors: {
+            moss: {
+              50: '#f3faf5',
+              100: '#dff5e8',
+              200: '#c2ead3',
+              300: '#94d9b2',
+              400: '#5ec08a',
+              500: '#36a368',
+              600: '#278351',
+              700: '#216843',
+              800: '#1e5337',
+              900: '#1a442f',
+              950: '#092518',
             },
-            fontFamily: {
-              "headline": ["Inter"],
-              "body": ["Inter"],
-              "label": ["Inter"]
+            stone: {
+              warm: '#f7f6f3',
             },
-            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+          animation: {
+            'fade-up': 'fadeUp 0.8s ease-out forwards',
+          },
+          keyframes: {
+            fadeUp: {
+              '0%': { opacity: '0', transform: 'translateY(16px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
           },
         },
-      }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-        }
-        .text-glass {
-            backdrop-filter: blur(12px);
-        }
-        .signature-gradient {
-            background: linear-gradient(135deg, #00652c 0%, #15803d 100%);
-        }
-    </style>
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="src/css/style.css" />
 </head>
-<body class="bg-background font-body text-on-surface antialiased">
-<!-- TopNavBar -->
-<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm">
-<nav class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
-<div class="text-xl font-bold text-green-900 dark:text-green-50 font-headline tracking-tight">ABI Bio Bags</div>
-<div class="hidden md:flex items-center space-x-8">
-<a class="text-green-800 dark:text-green-400 font-semibold border-b-2 border-green-800 dark:border-green-400 pb-1 font-inter tracking-tight transition-all duration-300 ease-in-out hover:opacity-80" href="#home">Home</a>
-<a class="text-slate-600 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 font-inter tracking-tight transition-all duration-300 ease-in-out hover:opacity-80" href="#about">About Us</a>
-<a class="text-slate-600 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 font-inter tracking-tight transition-all duration-300 ease-in-out hover:opacity-80" href="#products">Our Products</a>
-<a class="text-slate-600 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 font-inter tracking-tight transition-all duration-300 ease-in-out hover:opacity-80" href="#custom-printing">Customized Printing</a>
-<a class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-semibold hover:opacity-90 transition-opacity" href="#contact">Request a Quote</a>
-</div>
-<button class="md:hidden text-on-surface">
-<span class="material-symbols-outlined">menu</span>
-</button>
-</nav>
-</header>
-<main>
-<!-- Hero Section -->
-<section class="relative min-h-screen flex items-center pt-20 overflow-hidden" id="home">
-<div class="absolute inset-0 z-0">
-<img class="w-full h-full object-cover" data-alt="Modern industrial factory interior with clean lines and advanced machinery for processing eco-friendly biodegradable materials in soft bright daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRIcIk9WDr-oRG1sGml1q7egF63mMFmeW05llG86fQP_YAzt1E_moMx8HuJ-KpotVsgZ5Gq3lmXOACx_rR8RcGwpGcABaGyzMr8muQPxUB-is5oqmXzqtGnKxJAsnsVWm7VLNWl6FqgLiayFRLUXe2aEGbh9fLHBYSbgrEMMZd612rXvv9iILAltmO7mZ_b5aTb2kT3_2Lp3UbQjm76mAMqQMiEeWXniLrQenuwo7nmgbMFzeMZXfDFPfpLiDOi3Sppo-I2wgTI4oN"/>
-<div class="absolute inset-0 bg-white/40 dark:bg-slate-950/40 backdrop-blur-[2px]"></div>
-</div>
-<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
-<div class="max-w-3xl">
-<span class="inline-block py-1 px-3 bg-primary-container text-on-primary-container rounded-full text-xs font-bold tracking-widest uppercase mb-6">Sustainable Manufacturing</span>
-<h1 class="text-6xl md:text-8xl font-extrabold text-on-surface leading-[1.05] tracking-tight mb-8">
-                        Sustainable Packaging Solutions for Modern Businesses
-                    </h1>
-<p class="text-lg md:text-xl text-on-surface-variant max-w-xl mb-10 leading-relaxed">
-                        Redefining industry standards with high-precision manufacturing of biodegradable PBAT and Biofiller based carry bags.
-                    </p>
-<div class="flex flex-wrap gap-4">
-<a class="signature-gradient text-on-primary px-8 py-4 rounded-xl font-bold shadow-lg hover:opacity-90 transition-all flex items-center gap-2" href="#contact">
-                            Request a Quote
-                            <span class="material-symbols-outlined">arrow_forward</span>
-</a>
-<a class="bg-surface-container-high text-primary px-8 py-4 rounded-xl font-bold hover:bg-surface-container transition-all" href="#products">
-                            View Products
-                        </a>
-</div>
-</div>
-</div>
-</section>
-<!-- About Section -->
-<section class="py-32 bg-surface-container-low" id="about">
-<div class="max-w-7xl mx-auto px-8">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-<div class="relative">
-<div class="aspect-square rounded-xl overflow-hidden shadow-2xl">
-<img class="w-full h-full object-cover" data-alt="Close-up of raw biodegradable PBAT pellets and biofiller grains arranged artistically on a clean white laboratory surface with natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXIC8IaaF26bHBskma0s0RLDekslErM9ilWrVfpX1ZoI5H4vSfD5LNeQlV8mqitevou8sqYzvJSJ2xoNcMxzy9ghsMHVNRT2kl7aIc3-55r0jipOntObCZkXLrA-Gz48uOFFJNKnFiiHP1ww-xBD0CQjlAKTJ1XQD8MLSRMi2HNlhsOq0T5hw5-gmR6zoFZtpYx7B0CbW4BCwJVYEx2oTC-Y9qp_nZKD7_9WfJyW-BP9RXcCXmBHrsz-qBO6xfEbRZSgO76hnAKsPJ"/>
-</div>
-<div class="absolute -bottom-10 -right-10 w-64 h-64 bg-surface-container-lowest p-8 rounded-xl shadow-xl hidden md:block">
-<div class="text-primary font-bold text-4xl mb-2">100%</div>
-<div class="text-sm text-on-surface-variant font-medium">Biodegradable &amp; Compostable materials used in all production.</div>
-</div>
-</div>
-<div>
-<span class="text-label-md font-bold tracking-widest text-secondary mb-4 block uppercase">Our Material Science</span>
-<h2 class="text-4xl md:text-5xl font-extrabold text-on-surface mb-8 leading-tight">Engineered for Earth, Built for Strength.</h2>
-<p class="text-lg text-on-surface-variant mb-6 leading-relaxed">
-                            At ABI Bio Bags Udyog, we leverage the advanced molecular structure of PBAT (Polybutylene Adipate Terephthalate) blended with natural biofillers to create packaging that rivals traditional plastic in durability while leaving zero ecological footprint.
-                        </p>
-<p class="text-lg text-on-surface-variant mb-10 leading-relaxed">
-                            Our manufacturing process is optimized for precision transparency, ensuring every bag meets rigorous environmental certifications without compromising on load-bearing capacity or texture quality.
-                        </p>
-<div class="grid grid-cols-2 gap-6">
-<div class="p-6 bg-surface-container rounded-xl">
-<span class="material-symbols-outlined text-primary mb-3">eco</span>
-<h4 class="font-bold mb-1">Eco-Integrity</h4>
-<p class="text-sm text-on-surface-variant">Fully compostable within 180 days in soil.</p>
-</div>
-<div class="p-6 bg-surface-container rounded-xl">
-<span class="material-symbols-outlined text-primary mb-3">precision_manufacturing</span>
-<h4 class="font-bold mb-1">High Strength</h4>
-<p class="text-sm text-on-surface-variant">Superior tensile strength for heavy-duty use.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Impact Counter (Signature Component) -->
-<section class="bg-surface py-20 overflow-hidden">
-<div class="max-w-7xl mx-auto px-8 relative">
-<div class="flex flex-col md:flex-row items-end gap-12">
-<div class="flex-1">
-<div class="text-[8rem] md:text-[12rem] font-extrabold text-primary leading-none tracking-tighter opacity-10 absolute -left-10 top-0 select-none">ABI BIO</div>
-<div class="relative pt-20">
-<h3 class="text-8xl md:text-[10rem] font-extrabold text-primary leading-none tracking-tighter mb-4">1.2M+</h3>
-<p class="text-2xl font-bold text-on-surface-variant tracking-tight uppercase">Tons of Plastic Diverted Annually</p>
-</div>
-</div>
-<div class="flex-1 pb-4">
-<p class="text-xl text-on-surface-variant border-l-4 border-primary-fixed pl-8 italic">
-                            "Our mission is to bridge the gap between industrial necessity and environmental responsibility through material innovation."
-                        </p>
-</div>
-</div>
-</div>
-</section>
-<!-- Products Section -->
-<section class="py-32 bg-surface-container-low" id="products">
-<div class="max-w-7xl mx-auto px-8">
-<div class="mb-20 text-center">
-<span class="text-label-md font-bold tracking-widest text-secondary mb-4 block uppercase">Our Product Range</span>
-<h2 class="text-4xl md:text-6xl font-extrabold text-on-surface tracking-tight">Precision Carry Solutions</h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-<!-- Product 1 -->
-<div class="bg-surface-container-lowest rounded-xl overflow-hidden transition-all hover:-translate-y-2 group">
-<div class="h-80 overflow-hidden relative">
-<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Professional studio shot of a high-quality biodegradable white carry bag with smooth texture and sturdy handles on a soft green background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCl1FsT12U9Vys6kFQE9RqG8mR4nh4A1V49ewctVYLm4QhpM-CUemECZ_hPZqx4CeoJ1LmnrcOCvot4kx70yzvHGe43ipBqN1dSh6PlOXNgUbbxUYn_XJ9okzYMspCiYC-66ej5riYbZs7CV318lUhXrTcE-Dp28EKa-kOzsz6qbwPfBEFhvI_Zi1L7-_gMvBDONHtqDhA34oinEFBM25FQw59EmT1bZ_2J__MvbOGa7v8YQwMRq0NkApQHBSuSAbQ2K6V9zUbfmixW"/>
-<div class="absolute top-4 right-4 bg-primary text-on-primary px-4 py-1 rounded-full text-xs font-bold">In Stock</div>
-</div>
-<div class="p-8">
-<h3 class="text-2xl font-bold mb-4">Standard Carry Bag</h3>
-<div class="flex flex-wrap gap-2 mb-6">
-<span class="bg-surface-container text-primary text-xs font-bold px-3 py-1 rounded-md">1kg</span>
-<span class="bg-surface-container text-primary text-xs font-bold px-3 py-1 rounded-md">2kg</span>
-<span class="bg-surface-container text-primary text-xs font-bold px-3 py-1 rounded-md">3kg</span>
-<span class="bg-surface-container text-primary text-xs font-bold px-3 py-1 rounded-md">5kg</span>
-</div>
-<p class="text-on-surface-variant text-sm mb-8 leading-relaxed">Versatile, high-tensile bags designed for retail and grocery operations. Reinforced handles for maximum reliability.</p>
-<button class="w-full py-3 rounded-lg bg-surface-container-high text-primary font-bold hover:bg-primary hover:text-on-primary transition-colors">Inquire Sizes</button>
-</div>
-</div>
-<!-- Product 2 -->
-<div class="bg-surface-container-lowest rounded-xl overflow-hidden transition-all hover:-translate-y-2 group">
-<div class="h-80 overflow-hidden relative">
-<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Large heavy-duty biodegradable bags being loaded with goods, showcasing strength and premium industrial finish in a warehouse setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCC9arY9OnFUp1pN1vdB-HJCSpZSHSnQwuV4GMMC9IAiXk5cfTI8HdqGy4Z0do5awOjXkePPZQJ0luGVKqnIz_jwwpWfO8aj8DPm4K3-Ly9wI5eWiJ22zcoCRUUQb9hHa_zpPl4s-MbyAk5221LR9nwyhrv95cuJN5osQzxx9uiAoWYpw0Vc_KzGIeK0Fn7Hs58SaIoWmdObTBrf-8HflEblDfnHDoMU21iCas9_A0ohodoT25jG4KirXouk9-8hnVEYpvGoqOvXXgc"/>
-<div class="absolute top-4 right-4 bg-primary text-on-primary px-4 py-1 rounded-full text-xs font-bold">Industrial</div>
-</div>
-<div class="p-8">
-<h3 class="text-2xl font-bold mb-4">Heavy Duty Series</h3>
-<div class="flex flex-wrap gap-2 mb-6">
-<span class="bg-surface-container text-primary text-xs font-bold px-3 py-1 rounded-md">7kg</span>
-<span class="bg-surface-container text-primary text-xs font-bold px-3 py-1 rounded-md">10kg</span>
-</div>
-<p class="text-on-surface-variant text-sm mb-8 leading-relaxed">Engineered for large-scale logistics. Increased micron thickness to support heavier loads with zero stretching.</p>
-<button class="w-full py-3 rounded-lg bg-surface-container-high text-primary font-bold hover:bg-primary hover:text-on-primary transition-colors">Inquire Sizes</button>
-</div>
-</div>
-<!-- Product 3 - Coming Soon -->
-<div class="bg-surface-container rounded-xl overflow-hidden border-2 border-dashed border-outline-variant relative flex flex-col justify-center items-center p-12 text-center">
-<div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-primary text-4xl">delete</span>
-</div>
-<span class="text-label-md font-bold tracking-widest text-primary mb-2 block uppercase">Upcoming</span>
-<h3 class="text-2xl font-bold mb-4">Bio Trash Bags</h3>
-<p class="text-on-surface-variant text-sm mb-6">Revolutionary compostable waste management solutions. Coming soon to our product line.</p>
-<div class="bg-primary-container text-on-primary-container px-4 py-1 rounded-full text-xs font-bold">Stay Notified</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Custom Printing / Bento Grid -->
-<section class="py-32 bg-surface" id="custom-printing">
-<div class="max-w-7xl mx-auto px-8">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-8 h-auto md:h-[600px]">
-<div class="md:col-span-8 bg-surface-container-lowest p-12 rounded-xl flex flex-col justify-end relative overflow-hidden group">
-<div class="absolute inset-0 z-0">
-<img class="w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-1000" data-alt="Abstract colorful printing ink swirls representing custom branding and high-fidelity printing services on eco-friendly materials" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8sC5Jc6niStBGtTBtyIvXdrpAsSrCGfrr9MRDpCMVwc6NAae0yxOLXdIfxI0-fH8fdhGLFCkitjWOGAI2ji7RLZzAfVLuDp1cBWnzLF2qSyMNRLYtFTtGBtidPmUPp0z3rKzUC1LdSRYsMNBmXkGIfBzpYeQxz8z9w5h4n8bJQcXwZKCsYHre72vuQbXvNTTq_N4gLPBM1CqZSEoUy3mBONDvWQKDr16P5flrwkyKVkZGq8SGUHzWvHScp--efryTawOAETiM_gFo"/>
-</div>
-<div class="relative z-10">
-<span class="inline-block py-1 px-3 bg-secondary-container text-on-secondary-container rounded-full text-xs font-bold mb-4">Service Expansion</span>
-<h2 class="text-5xl font-extrabold mb-6">Customized Printing</h2>
-<p class="text-xl text-on-surface-variant max-w-xl mb-8">Elevate your brand presence with eco-friendly inks. Our upcoming custom printing service will offer high-resolution logo placement and bespoke designs.</p>
-<span class="inline-flex items-center gap-2 font-bold text-primary">COMING SOON <span class="material-symbols-outlined">pending</span></span>
-</div>
-</div>
-<div class="md:col-span-4 grid grid-rows-2 gap-8">
-<div class="bg-primary text-on-primary p-8 rounded-xl flex flex-col justify-center">
-<h4 class="text-2xl font-bold mb-2">Order-Based Production</h4>
-<p class="opacity-80">Tailored manufacturing schedules to meet your specific inventory needs.</p>
-</div>
-<div class="bg-surface-container-high p-8 rounded-xl flex flex-col justify-center">
-<h4 class="text-2xl font-bold mb-2 text-on-surface">Bulk Supply</h4>
-<p class="text-on-surface-variant">Scalable logistics for large-scale distributors and retail chains.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Why Choose Us / Trust Section -->
-<section class="py-32 bg-surface-container-low">
-<div class="max-w-7xl mx-auto px-8">
-<div class="flex flex-col md:flex-row justify-between items-start gap-12 mb-20">
-<div class="max-w-2xl">
-<h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">The ABI Manufacturing Advantage</h2>
-<p class="text-lg text-on-surface-variant leading-relaxed">We don't just supply bags; we provide a reliable backbone for your sustainable transition. Our registered facility operates on a philosophy of technical precision and supply chain resilience.</p>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="p-10 bg-surface-container-lowest rounded-xl shadow-sm">
-<span class="material-symbols-outlined text-primary text-4xl mb-6">verified</span>
-<h3 class="text-xl font-bold mb-4">Registered Entity</h3>
-<p class="text-on-surface-variant leading-relaxed">Fully licensed and compliant with all national manufacturing and environmental standards for bioplastics.</p>
-</div>
-<div class="p-10 bg-surface-container-lowest rounded-xl shadow-sm">
-<span class="material-symbols-outlined text-primary text-4xl mb-6">handshake</span>
-<h3 class="text-xl font-bold mb-4">Distributor Support</h3>
-<p class="text-on-surface-variant leading-relaxed">Dedicated logistics and pricing structures designed to support our nationwide distribution partners.</p>
-</div>
-<div class="p-10 bg-surface-container-lowest rounded-xl shadow-sm">
-<span class="material-symbols-outlined text-primary text-4xl mb-6">factory</span>
-<h3 class="text-xl font-bold mb-4">Direct Manufacturing</h3>
-<p class="text-on-surface-variant leading-relaxed">Eliminate the middleman. Work directly with the source for better quality control and competitive pricing.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Final CTA -->
-<section class="py-32 bg-surface" id="contact">
-<div class="mx-auto px-8 max-w-6xl">
-<div class="signature-gradient rounded-[2rem] p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
-<div class="relative z-10">
-<h2 class="text-4xl md:text-6xl font-extrabold text-on-primary mb-8 tracking-tight">Ready to Switch to Better Packaging?</h2>
-<p class="text-xl text-on-primary/80 mb-12 max-w-2xl mx-auto">Contact our sales team today for a custom quote or to request product samples for your business.</p>
-<form class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-<div class="flex flex-col gap-2">
-<label class="text-on-primary text-sm font-bold" for="full-name">Full Name</label>
-<input class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface" id="full-name" placeholder="e.g. John Doe" required="" type="text"/>
-</div>
-<div class="flex flex-col gap-2">
-<label class="text-on-primary text-sm font-bold" for="company-name">Company Name</label>
-<input class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface" id="company-name" placeholder="e.g. EcoRetail Ltd" required="" type="text"/>
-</div>
-<div class="flex flex-col gap-2">
-<label class="text-on-primary text-sm font-bold" for="email-address">Email Address</label>
-<input class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface" id="email-address" placeholder="name@company.com" required="" type="email"/>
-</div>
-<div class="flex flex-col gap-2">
-<label class="text-on-primary text-sm font-bold" for="phone-number">Phone Number</label>
-<input class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface" id="phone-number" placeholder="+1 (555) 000-0000" type="tel"/>
-</div>
-<div class="flex flex-col gap-2 md:col-span-2">
-<label class="text-on-primary text-sm font-bold" for="monthly-volume">Estimated Monthly Volume</label>
-<select class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface appearance-none" id="monthly-volume">
-<option value="">Select volume range</option>
-<option value="&lt;1k">Less than 1,000 bags</option>
-<option value="1k-10k">1,000 - 10,000 bags</option>
-<option value="10k-50k">10,000 - 50,000 bags</option>
-<option value="50k+">Over 50,000 bags</option>
-</select>
-</div>
-<div class="flex flex-col gap-2 md:col-span-2">
-<label class="text-on-primary text-sm font-bold" for="message">Message</label>
-<textarea class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface h-32" id="message" placeholder="Tell us about your specific packaging requirements..."></textarea>
-</div>
-<div class="md:col-span-2 flex justify-center mt-4">
-<button class="bg-white text-primary px-12 py-4 rounded-xl font-extrabold hover:bg-opacity-90 transition-all shadow-lg w-full md:w-auto">Request Custom Quote</button>
-</div>
-</form>
-</div>
-<div class="absolute top-0 right-0 p-10 opacity-10">
-<span class="material-symbols-outlined text-[15rem]" style="font-variation-settings: 'FILL' 1;">eco</span>
-</div>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="w-full border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950">
-<div class="grid grid-cols-1 md:grid-cols-4 gap-8 px-8 py-12 max-w-7xl mx-auto">
-<div class="col-span-1 md:col-span-1">
-<div class="text-lg font-bold text-green-900 dark:text-green-50 mb-6 font-headline">ABI Bio Bags</div>
-<p class="text-sm font-inter text-slate-500 dark:text-slate-400 leading-relaxed">
-                    Leading the transition to sustainable packaging through material science and precision manufacturing.
-                </p>
-</div>
-<div>
-<h4 class="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-6">Our Products</h4>
-<ul class="space-y-4">
-<li><a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 transition-colors" href="#">Carry Bags</a></li>
-<li><a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 transition-colors" href="#">Industrial Liners</a></li>
-<li><a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 transition-colors" href="#custom-printing">Customized Printing</a></li>
-</ul>
-</div>
-<div>
-<h4 class="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-6">Company</h4>
-<ul class="space-y-4">
-<li><a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 transition-colors" href="#">Privacy Policy</a></li>
-<li><a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 transition-colors" href="#">Terms of Service</a></li>
-<li><a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 transition-colors" href="#contact">Contact Us</a></li>
-<li><a class="text-sm font-inter text-slate-500 dark:text-slate-400 hover:text-green-800 dark:hover:text-green-300 transition-colors" href="#">Certifications</a></li>
-</ul>
-</div>
-<div>
-<h4 class="text-sm font-bold text-slate-900 dark:text-white uppercase tracking-widest mb-6">Contact</h4>
-<ul class="space-y-4 text-sm font-inter text-slate-500 dark:text-slate-400">
-<li class="flex items-start gap-2">
-<span class="material-symbols-outlined text-xs">location_on</span>
-                        ABI Bio Bags Udyog,<br/>Manufacturing Unit, Sector 4
-                    </li>
-<li class="flex items-center gap-2">
-<span class="material-symbols-outlined text-xs">mail</span>
-                        contact@abibiobags.com
-                    </li>
-</ul>
-</div>
-</div>
-<div class="max-w-7xl mx-auto px-8 py-6 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
-<div class="text-sm font-inter text-slate-500 dark:text-slate-400">© 2024 ABI Bio Bags Udyog. All rights reserved.</div>
-<div class="flex gap-6">
-<a class="text-slate-400 hover:text-primary transition-colors hover:opacity-80" href="#"><span class="material-symbols-outlined">public</span></a>
-<a class="text-slate-400 hover:text-primary transition-colors hover:opacity-80" href="#"><span class="material-symbols-outlined">groups</span></a>
-</div>
-</div>
-</footer>
-</body></html>
+<body class="bg-stone-warm text-moss-950 antialiased font-sans">
+  <header class="fixed top-0 inset-x-0 z-50 border-b border-moss-900/5 bg-white/75 backdrop-blur-xl transition-[background,box-shadow] duration-300" id="site-header">
+    <div class="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-4 md:px-8 lg:px-10">
+      <a href="index.html" class="group flex flex-col leading-tight">
+        <span class="font-display text-lg font-semibold tracking-tight text-moss-950 transition-colors group-hover:text-moss-700 md:text-xl">ABI Bio Bags Udyog</span>
+        <span class="text-[11px] font-medium uppercase tracking-[0.2em] text-moss-600/80">Biodegradable packaging</span>
+      </a>
+      <nav class="hidden items-center gap-9 text-sm font-medium text-moss-800 md:flex" aria-label="Primary">
+        <a href="#about" class="transition-colors hover:text-moss-600">About</a>
+        <a href="#products" class="transition-colors hover:text-moss-600">Products</a>
+        <a href="#why-us" class="transition-colors hover:text-moss-600">Why us</a>
+        <a href="#printing" class="transition-colors hover:text-moss-600">Printing</a>
+        <a href="products.html" class="transition-colors hover:text-moss-600">Catalog</a>
+        <a href="#quote" class="rounded-full bg-moss-800 px-5 py-2.5 text-white shadow-sm transition-all duration-200 hover:bg-moss-700 hover:shadow-md">Request a quote</a>
+      </nav>
+      <button type="button" class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-moss-900/10 bg-white text-moss-900 shadow-sm transition hover:border-moss-900/20 hover:bg-moss-50 md:hidden" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" class="open-icon" />
+          <path stroke-linecap="round" d="M6 6l12 12M18 6L6 18" class="close-icon hidden" />
+        </svg>
+      </button>
+    </div>
+    <div class="hidden border-t border-moss-900/5 bg-white/95 px-5 py-6 backdrop-blur-xl md:hidden" id="mobile-nav">
+      <nav class="flex flex-col gap-1 text-base font-medium" aria-label="Mobile">
+        <a href="#about" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">About</a>
+        <a href="#products" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Products</a>
+        <a href="#why-us" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Why us</a>
+        <a href="#printing" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Custom printing</a>
+        <a href="products.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Full catalog</a>
+        <a href="about.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Company</a>
+        <a href="#quote" class="mt-2 rounded-full bg-moss-800 px-4 py-3 text-center text-white transition hover:bg-moss-700">Request a quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="relative min-h-[100svh] flex items-center" aria-label="Hero">
+      <div class="absolute inset-0">
+        <img
+          src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=2400&q=85"
+          alt=""
+          width="2400"
+          height="1600"
+          class="h-full w-full object-cover"
+          role="presentation"
+        />
+        <div class="absolute inset-0 bg-gradient-to-br from-moss-950/85 via-moss-900/70 to-moss-950/80"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(255,255,255,0.12),_transparent_55%)]"></div>
+      </div>
+      <div class="relative mx-auto flex w-full max-w-7xl flex-col justify-center px-5 pb-28 pt-32 md:px-8 lg:px-10 lg:pb-36 lg:pt-40">
+        <p class="mb-5 max-w-xl text-xs font-semibold uppercase tracking-[0.35em] text-moss-200/90 animate-fade-up opacity-0 [animation-delay:0.05s] md:text-sm">B2B manufacturing · Nepal</p>
+        <h1 class="max-w-4xl font-display text-4xl font-semibold leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl animate-fade-up opacity-0 [animation-delay:0.12s]">
+          Sustainable Packaging Solutions for Businesses
+        </h1>
+        <p class="mt-8 max-w-2xl text-lg leading-relaxed text-white/85 md:text-xl animate-fade-up opacity-0 [animation-delay:0.2s]">
+          We manufacture biodegradable carry bags with <span class="font-medium text-white">PBAT</span> and <span class="font-medium text-white">biofiller</span> — order-based production and dependable bulk supply for supermarkets and retail chains (including major partners such as Bhatbhateni), wholesalers, and distributors.
+        </p>
+        <div class="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center animate-fade-up opacity-0 [animation-delay:0.28s]">
+          <a href="#quote" class="inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-moss-900 shadow-lg transition duration-200 hover:bg-moss-50 hover:shadow-xl">
+            Request a Quote
+          </a>
+          <a href="#products" class="inline-flex items-center justify-center rounded-full border border-white/35 bg-white/5 px-8 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition duration-200 hover:border-white/55 hover:bg-white/10">
+            View Products
+          </a>
+        </div>
+        <p class="mt-14 max-w-md text-xs font-medium uppercase tracking-widest text-white/45 animate-fade-up opacity-0 [animation-delay:0.35s]">Trusted supply for modern retail &amp; distribution</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="scroll-mt-24 border-b border-moss-900/5 bg-white py-24 md:py-32 lg:py-40">
+      <div class="mx-auto grid max-w-7xl gap-16 px-5 md:grid-cols-2 md:items-center md:gap-20 md:px-8 lg:px-10">
+        <div class="order-2 md:order-1">
+          <p class="text-xs font-semibold uppercase tracking-[0.3em] text-moss-600">About us</p>
+          <h2 class="mt-4 font-display text-3xl font-semibold tracking-tight text-moss-950 md:text-4xl lg:text-[2.75rem] lg:leading-tight">
+            Manufacturing discipline meets responsible materials.
+          </h2>
+          <p class="mt-6 text-base leading-relaxed text-moss-800/80 md:text-lg">
+            <span class="font-semibold text-moss-900">ABI Bio Bags Udyog</span> is focused on one thing: consistent, high-volume production of biodegradable carry bags that perform in real retail environments. Our process is built around clarity, repeatability, and timelines you can plan around — whether you serve local stores or national chains.
+          </p>
+          <p class="mt-4 text-base leading-relaxed text-moss-800/80 md:text-lg">
+            From material selection through finishing, we prioritize sustainability without treating it as a compromise. You get packaging that reflects professionalism in the aisles and in your vendor relationships.
+          </p>
+          <div class="mt-10 grid gap-4 sm:grid-cols-2">
+            <div class="rounded-2xl border border-moss-900/8 bg-stone-warm/80 p-6 transition hover:border-moss-700/15 hover:shadow-sm">
+              <p class="text-sm font-semibold text-moss-900">Order-based production</p>
+              <p class="mt-2 text-sm leading-relaxed text-moss-700/85">Runs aligned to your forecast and replenishment cycles.</p>
+            </div>
+            <div class="rounded-2xl border border-moss-900/8 bg-stone-warm/80 p-6 transition hover:border-moss-700/15 hover:shadow-sm">
+              <p class="text-sm font-semibold text-moss-900">B2B-first partnership</p>
+              <p class="mt-2 text-sm leading-relaxed text-moss-700/85">Structured for retailers, wholesale, and distribution networks.</p>
+            </div>
+          </div>
+        </div>
+        <div class="order-1 md:order-2">
+          <div class="relative aspect-[4/5] overflow-hidden rounded-3xl bg-moss-100 shadow-2xl shadow-moss-900/10 ring-1 ring-moss-900/5">
+            <img
+              src="https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=1200&q=85"
+              alt="Biodegradable paper and fiber packaging materials arranged in a clean, minimal layout"
+              width="1200"
+              height="1500"
+              class="h-full w-full object-cover transition duration-700 hover:scale-[1.02]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="scroll-mt-24 bg-stone-warm py-24 md:py-32 lg:py-40">
+      <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
+        <div class="max-w-2xl">
+          <p class="text-xs font-semibold uppercase tracking-[0.3em] text-moss-600">Product range</p>
+          <h2 class="mt-4 font-display text-3xl font-semibold tracking-tight text-moss-950 md:text-4xl lg:text-[2.75rem]">Carry bags sized for every shelf.</h2>
+          <p class="mt-5 text-base leading-relaxed text-moss-800/80 md:text-lg">
+            Standard biodegradable carry bags in the weights retailers use every day. All sizes are produced for <span class="font-medium text-moss-900">bulk supply</span> — tell us your monthly volume and preferred specs when you request a quote.
+          </p>
+        </div>
+
+        <div class="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="group flex flex-col rounded-2xl border border-moss-900/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/30 hover:shadow-lg">
+            <p class="font-display text-2xl font-semibold text-moss-950">1 kg</p>
+            <p class="mt-2 text-sm text-moss-700/90">Light everyday carry · retail counters</p>
+            <span class="mt-6 inline-block w-10 border-t-2 border-moss-600 transition group-hover:w-14"></span>
+          </article>
+          <article class="group flex flex-col rounded-2xl border border-moss-900/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/30 hover:shadow-lg">
+            <p class="font-display text-2xl font-semibold text-moss-950">2 kg</p>
+            <p class="mt-2 text-sm text-moss-700/90">Grocery &amp; convenience standard</p>
+            <span class="mt-6 inline-block w-10 border-t-2 border-moss-600 transition group-hover:w-14"></span>
+          </article>
+          <article class="group flex flex-col rounded-2xl border border-moss-900/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/30 hover:shadow-lg">
+            <p class="font-display text-2xl font-semibold text-moss-950">3 kg</p>
+            <p class="mt-2 text-sm text-moss-700/90">Higher basket sizes · daily essentials</p>
+            <span class="mt-6 inline-block w-10 border-t-2 border-moss-600 transition group-hover:w-14"></span>
+          </article>
+          <article class="group flex flex-col rounded-2xl border border-moss-900/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/30 hover:shadow-lg">
+            <p class="font-display text-2xl font-semibold text-moss-950">5 kg</p>
+            <p class="mt-2 text-sm text-moss-700/90">Weekend shopping · mid-weight loads</p>
+            <span class="mt-6 inline-block w-10 border-t-2 border-moss-600 transition group-hover:w-14"></span>
+          </article>
+          <article class="group flex flex-col rounded-2xl border border-moss-900/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/30 hover:shadow-lg">
+            <p class="font-display text-2xl font-semibold text-moss-950">7 kg</p>
+            <p class="mt-2 text-sm text-moss-700/90">Heavier baskets · operational efficiency</p>
+            <span class="mt-6 inline-block w-10 border-t-2 border-moss-600 transition group-hover:w-14"></span>
+          </article>
+          <article class="group flex flex-col rounded-2xl border border-moss-900/8 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/30 hover:shadow-lg">
+            <p class="font-display text-2xl font-semibold text-moss-950">10 kg</p>
+            <p class="mt-2 text-sm text-moss-700/90">Wholesale-style loads · robust handling</p>
+            <span class="mt-6 inline-block w-10 border-t-2 border-moss-600 transition group-hover:w-14"></span>
+          </article>
+        </div>
+
+        <article class="mt-8 flex flex-col gap-6 rounded-3xl border border-dashed border-moss-700/35 bg-white/60 p-10 md:flex-row md:items-center md:justify-between md:p-12">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.25em] text-moss-600">Coming soon</p>
+            <h3 class="mt-2 font-display text-2xl font-semibold text-moss-950">Biodegradable trash bags</h3>
+            <p class="mt-3 max-w-xl text-sm leading-relaxed text-moss-800/80 md:text-base">
+              We are extending our line to include compost-oriented waste solutions for facilities and municipalities. Join our inquiry list when you request a quote — we will reach out as SKUs go live.
+            </p>
+          </div>
+          <a href="#quote" class="inline-flex shrink-0 items-center justify-center rounded-full border border-moss-800/20 bg-moss-50 px-8 py-3.5 text-sm font-semibold text-moss-900 transition hover:bg-moss-100">Notify me</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="scroll-mt-24 border-y border-moss-900/5 bg-white py-24 md:py-32">
+      <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
+        <div class="grid gap-12 lg:grid-cols-2 lg:gap-20">
+          <div class="lg:sticky lg:top-28 lg:self-start">
+            <p class="text-xs font-semibold uppercase tracking-[0.3em] text-moss-600">Why choose us</p>
+            <h2 class="mt-4 font-display text-3xl font-semibold tracking-tight text-moss-950 md:text-4xl">Built for procurement teams that need answers, not hype.</h2>
+            <p class="mt-6 text-base leading-relaxed text-moss-800/80 md:text-lg">
+              ABI partners with organizations that move real volume — from regional wholesalers to chains with demanding specifications. We speak the language of lead times, consistency, and accountable materials.
+            </p>
+          </div>
+          <ul class="grid gap-5 sm:grid-cols-2">
+            <li class="rounded-2xl border border-moss-900/6 bg-stone-warm/50 p-8 transition duration-300 hover:bg-stone-warm hover:shadow-md">
+              <div class="flex h-11 w-11 items-center justify-center rounded-full bg-moss-800 text-white text-lg font-semibold">1</div>
+              <h3 class="mt-5 font-display text-lg font-semibold text-moss-950">Eco-forward materials</h3>
+              <p class="mt-2 text-sm leading-relaxed text-moss-800/80">PBAT blended with biofiller for performance-oriented biodegradable carry bags — aligned with serious sustainability programs.</p>
+            </li>
+            <li class="rounded-2xl border border-moss-900/6 bg-stone-warm/50 p-8 transition duration-300 hover:bg-stone-warm hover:shadow-md">
+              <div class="flex h-11 w-11 items-center justify-center rounded-full bg-moss-800 text-white text-lg font-semibold">2</div>
+              <h3 class="mt-5 font-display text-lg font-semibold text-moss-950">Bulk supply capability</h3>
+              <p class="mt-2 text-sm leading-relaxed text-moss-800/80">Structured for repeat orders and palletized logistics — whether you restock weekly or seasonally.</p>
+            </li>
+            <li class="rounded-2xl border border-moss-900/6 bg-stone-warm/50 p-8 transition duration-300 hover:bg-stone-warm hover:shadow-md">
+              <div class="flex h-11 w-11 items-center justify-center rounded-full bg-moss-800 text-white text-lg font-semibold">3</div>
+              <h3 class="mt-5 font-display text-lg font-semibold text-moss-950">Reliable manufacturing</h3>
+              <p class="mt-2 text-sm leading-relaxed text-moss-800/80">Processes tuned for dimensional stability, handle strength, and predictable finishing — batch after batch.</p>
+            </li>
+            <li class="rounded-2xl border border-moss-900/6 bg-stone-warm/50 p-8 transition duration-300 hover:bg-stone-warm hover:shadow-md">
+              <div class="flex h-11 w-11 items-center justify-center rounded-full bg-moss-800 text-white text-lg font-semibold">4</div>
+              <h3 class="mt-5 font-display text-lg font-semibold text-moss-950">B2B focused service</h3>
+              <p class="mt-2 text-sm leading-relaxed text-moss-800/80">Direct conversations with procurement and operations — not consumer ticketing queues.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Future: Custom Printing -->
+    <section id="printing" class="scroll-mt-24 bg-moss-950 py-24 text-white md:py-32">
+      <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
+        <div class="grid gap-14 lg:grid-cols-2 lg:gap-16 lg:items-center">
+          <div class="relative min-h-[280px] overflow-hidden rounded-3xl ring-1 ring-white/10 lg:min-h-[420px]">
+            <img
+              src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=85"
+              alt="Design workspace suggesting custom brand printing and packaging artwork"
+              width="1400"
+              height="933"
+              class="h-full w-full object-cover opacity-90 transition duration-700 hover:scale-[1.03]"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-moss-950/90 via-moss-950/20 to-transparent"></div>
+            <p class="absolute bottom-6 left-6 right-6 text-sm font-medium text-white/85">Branded carry bags reinforce trust at every checkout.</p>
+          </div>
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.3em] text-moss-300">Future roadmap</p>
+            <h2 class="mt-4 font-display text-3xl font-semibold tracking-tight md:text-4xl">Custom printing &amp; brand programs.</h2>
+            <p class="mt-6 text-base leading-relaxed text-white/80 md:text-lg">
+              Custom branding is the next chapter for ABI — high-legibility logos, controlled color, and artwork that survives handling in busy retail environments. We are investing in print workflows that pair with our biodegradable films so your brand and your values stay aligned.
+            </p>
+            <p class="mt-4 text-base leading-relaxed text-white/80 md:text-lg">
+              If you are planning seasonal campaigns or a chain-wide rollout, share your timeline when you request a quote — we will advise what is possible today and what is on our near-term roadmap.
+            </p>
+            <div class="mt-10 flex flex-wrap gap-3">
+              <span class="rounded-full bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white/95 ring-1 ring-white/15">Logo placement</span>
+              <span class="rounded-full bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white/95 ring-1 ring-white/15">Edition runs</span>
+              <span class="rounded-full bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white/95 ring-1 ring-white/15">Retail-ready QA</span>
+            </div>
+            <a href="printing.html" class="mt-10 inline-flex items-center gap-2 text-sm font-semibold text-moss-200 underline-offset-4 transition hover:text-white hover:underline">
+              Read more about printing plans
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / Quote -->
+    <section id="quote" class="scroll-mt-24 bg-white py-24 md:py-32">
+      <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
+        <div class="signature-gradient relative overflow-hidden rounded-[2rem] px-8 py-16 text-center shadow-2xl shadow-moss-900/15 md:px-16 md:py-20">
+          <div class="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-white/10 blur-3xl"></div>
+          <div class="pointer-events-none absolute -bottom-32 -left-16 h-72 w-72 rounded-full bg-moss-400/20 blur-3xl"></div>
+          <div class="relative z-10 mx-auto max-w-3xl">
+            <h2 class="font-display text-3xl font-semibold tracking-tight text-white md:text-4xl lg:text-5xl">Upgrade your checkout experience — without compromising the planet.</h2>
+            <p class="mt-6 text-base leading-relaxed text-white/85 md:text-lg">
+              Tell us your business type, target sizes, and estimated monthly volume. Our team will respond with pricing bands, lead times, and next steps for samples or pilot pallets.
+            </p>
+            <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20%E2%80%94%20ABI%20Bio%20Bags%20Udyog" class="mt-10 inline-flex items-center justify-center rounded-full bg-white px-10 py-4 text-sm font-semibold text-moss-900 shadow-lg transition duration-200 hover:bg-moss-50 hover:shadow-xl">Request a Quote</a>
+            <p class="mt-6 text-sm text-white/70">Prefer email directly? <a class="font-semibold text-white underline-offset-2 hover:underline" href="mailto:contact@abibiobags.com">contact@abibiobags.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-moss-900/10 bg-stone-warm">
+    <div class="mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-12 md:gap-10 md:px-8 lg:px-10">
+      <div class="md:col-span-5">
+        <p class="font-display text-xl font-semibold text-moss-950">ABI Bio Bags Udyog</p>
+        <p class="mt-4 max-w-sm text-sm leading-relaxed text-moss-800/80">
+          Biodegradable carry bags manufactured with PBAT and biofiller. Order-based production and bulk supply for retail, wholesale, and distribution partners.
+        </p>
+      </div>
+      <div class="md:col-span-3">
+        <p class="text-xs font-semibold uppercase tracking-[0.2em] text-moss-700">Quick links</p>
+        <ul class="mt-4 space-y-3 text-sm font-medium text-moss-800">
+          <li><a class="transition hover:text-moss-600" href="index.html">Home</a></li>
+          <li><a class="transition hover:text-moss-600" href="about.html">About</a></li>
+          <li><a class="transition hover:text-moss-600" href="products.html">Products</a></li>
+          <li><a class="transition hover:text-moss-600" href="printing.html">Custom printing</a></li>
+          <li><a class="transition hover:text-moss-600" href="#quote">Request a quote</a></li>
+        </ul>
+      </div>
+      <div class="md:col-span-4">
+        <p class="text-xs font-semibold uppercase tracking-[0.2em] text-moss-700">Contact</p>
+        <ul class="mt-4 space-y-4 text-sm text-moss-800/90">
+          <li>
+            <span class="block font-medium text-moss-950">Email</span>
+            <a class="transition hover:text-moss-600" href="mailto:contact@abibiobags.com">contact@abibiobags.com</a>
+          </li>
+          <li>
+            <span class="block font-medium text-moss-950">Manufacturing</span>
+            <span>ABI Bio Bags Udyog — update with your full address in production.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-moss-900/10 py-6">
+      <p class="text-center text-xs text-moss-700/90">© 2026 ABI Bio Bags Udyog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var header = document.getElementById('site-header');
+      var toggle = document.getElementById('nav-toggle');
+      var panel = document.getElementById('mobile-nav');
+      var openIcon = toggle && toggle.querySelector('.open-icon');
+      var closeIcon = toggle && toggle.querySelector('.close-icon');
+
+      function setScrolled() {
+        if (!header) return;
+        if (window.scrollY > 10) {
+          header.classList.add('shadow-sm', 'bg-white/90');
+        } else {
+          header.classList.remove('shadow-sm', 'bg-white/90');
+        }
+      }
+
+      window.addEventListener('scroll', setScrolled, { passive: true });
+      setScrolled();
+
+      if (toggle && panel) {
+        toggle.addEventListener('click', function () {
+          var open = panel.classList.toggle('hidden');
+          toggle.setAttribute('aria-expanded', open ? 'false' : 'true');
+          toggle.setAttribute('aria-label', open ? 'Open menu' : 'Close menu');
+          if (openIcon && closeIcon) {
+            openIcon.classList.toggle('hidden', !open);
+            closeIcon.classList.toggle('hidden', open);
+          }
+        });
+        panel.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', function () {
+            panel.classList.add('hidden');
+            toggle.setAttribute('aria-expanded', 'false');
+            if (openIcon && closeIcon) {
+              openIcon.classList.remove('hidden');
+              closeIcon.classList.add('hidden');
+            }
+          });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
