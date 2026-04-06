@@ -43,7 +43,7 @@
         <a href="printing.html" class="transition-colors hover:text-moss-600">Customized Printing</a>
         <a href="contact.html" class="transition-colors hover:text-moss-600">Contact</a>
         <!-- CTA Button: Direct link to quote request section -->
-        <a href="#contact"
+        <a href="#cta"
           class="rounded-full bg-moss-800 px-5 py-2.5 text-white shadow-sm transition-all duration-200 hover:bg-moss-700 hover:shadow-md">Request
           a Quote</a>
       </nav>
@@ -67,7 +67,7 @@
         <a href="printing.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Customized
           Printing</a>
         <!-- Mobile CTA Button: Direct link to quote request -->
-        <a href="#contact"
+        <a href="#cta"
           class="mt-2 rounded-full bg-moss-800 px-4 py-3 text-center text-white transition hover:bg-moss-700">Request a
           Quote</a>
       </nav>
@@ -80,8 +80,8 @@
     <section class="relative min-h-[100svh] flex items-center" aria-label="Hero">
       <!-- Background Image and Overlay: Hero background with gradient overlays -->
       <div class="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=2400&q=85" alt=""
-          width="2400" height="1600" class="h-full w-full object-cover" role="presentation" />
+        <img src="assets/images/homeimg.jpg" alt="" width="2400" height="1600" class="h-full w-full object-cover"
+          role="presentation" />
         <div class="absolute inset-0 bg-gradient-to-br from-moss-950/85 via-moss-900/70 to-moss-950/80"></div>
         <div
           class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(255,255,255,0.12),_transparent_55%)]">
@@ -109,7 +109,7 @@
         <div
           class="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center animate-fade-up opacity-0 [animation-delay:0.28s]">
           <!-- Primary CTA: Request quote -->
-          <a href="#contact"
+          <a href="#cta"
             class="inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-moss-900 shadow-lg transition duration-200 hover:bg-moss-50 hover:shadow-xl">
             Request a Quote
           </a>
@@ -376,7 +376,7 @@
         <div class="grid gap-14 lg:grid-cols-2 lg:gap-16 lg:items-center">
           <!-- Image Section: Visual representation of printing -->
           <div class="relative min-h-[280px] overflow-hidden rounded-3xl ring-1 ring-white/10 lg:min-h-[420px]">
-            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=85"
+            <img src="assets/images/customprintingimg.jpg"
               alt="Design workspace suggesting custom brand printing and packaging artwork" width="1400" height="933"
               class="h-full w-full object-cover opacity-90 transition duration-700 hover:scale-[1.03]" />
             <!-- Image Overlay: Gradient for text readability -->
@@ -426,35 +426,6 @@
       </div>
     </section>
 
-    <!-- CTA / Quote Section: Call-to-action for requesting quotes -->
-    <section class="py-32 bg-surface" id="contact">
-      <div class="mx-auto px-8 max-w-6xl">
-        <!-- CTA Card: Prominent call-to-action -->
-        <div class="signature-gradient rounded-[2rem] p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
-          <!-- Background Icon: Decorative eco icon -->
-          <div class="absolute top-0 right-0 p-10 opacity-10">
-            <span class="material-symbols-outlined text-[15rem]" style="font-variation-settings: 'FILL' 1;">eco</span>
-          </div>
-          <!-- CTA Content: Headline, description, and button -->
-          <div class="relative z-10">
-            <!-- CTA Headline: Main message -->
-            <h2 class="text-4xl md:text-6xl font-extrabold text-on-primary mb-8 tracking-tight">Ready to Switch to
-              Sustainable Packaging?</h2>
-            <!-- CTA Description: Additional information -->
-            <p class="text-xl text-on-primary/80 mb-12 max-w-2xl mx-auto">Get a custom quote for your business needs. We
-              respond within 24 hours.</p>
-            <!-- CTA Button: Direct link to form -->
-            <a href="#contact"
-              class="inline-flex items-center justify-center bg-white text-primary px-12 py-4 rounded-xl font-extrabold hover:bg-opacity-90 transition-all shadow-lg">Request
-              a Quote</a>
-          </div>
-          <div class="absolute top-0 right-0 p-10 opacity-10">
-            <span class="material-symbols-outlined text-[15rem]" style="font-variation-settings: 'FILL' 1;">eco</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Contact Section: Quote request form with company information -->
     <section id="cta" class="scroll-mt-24 py-24 md:py-32 bg-stone-warm">
       <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
@@ -493,7 +464,7 @@
             <label class="text-moss-950 text-sm font-bold" for="phone-number">Phone Number</label>
             <input
               class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950"
-              id="phone-number" name="phone" placeholder="+977 98XXXXXXXX" type="tel" />
+              id="phone-number" name="phone" placeholder="+977 9XXXXXXXXX" type="tel" />
           </div>
           <!-- Volume Field: Estimated monthly bag requirements -->
           <div class="flex flex-col gap-2 md:col-span-2">
@@ -550,29 +521,30 @@
           <li><a class="transition hover:text-moss-600" href="index.html#quote">Request a quote</a></li>
         </ul>
       </div>
+
       <!-- Contact Info: Company contact details -->
       <div class="md:col-span-4">
         <p class="text-xs font-semibold uppercase tracking-[0.2em] text-moss-700">Contact</p>
         <ul class="mt-4 space-y-4 text-sm text-moss-800/90">
           <li>
             <span class="block font-medium text-moss-950">Email</span>
-            <a class="transition hover:text-moss-600"
-              href="mailto:info@abibiodegradable.com.np">info@abibiodegradable.com.np</a>
+            <a class="transition hover:text-moss-600" href="">info@abibiodegradable.com.np</a>
           </li>
           <li>
             <span class="block font-medium text-moss-950">Phone</span>
-            <span>+977 98XXXXXXXX</span>
+            <a href="tel:+977 9852643400" class="transition hover:text-moss-600">+977 9852643400</a>
           </li>
           <li>
             <span class="block font-medium text-moss-950">Location</span>
-            <span>Nepal</span>
+            <a href="https://maps.google.com/?q=Nepal" class="transition hover:text-moss-600" target="_blank"
+              rel="noopener noreferrer">Nepal</a>
           </li>
         </ul>
       </div>
     </div>
     <!-- Copyright Notice: Legal footer -->
     <div class="border-t border-moss-900/10 py-6">
-      <p class="text-center text-xs text-moss-700/90">© 2026 ABI Bio Bags Udyog. All rights reserved.</p>
+      <p class="text-center text-xs text-moss-700/90 font-bold">© 2026 ABI Bio Bags Udyog. All rights reserved.</p>
     </div>
   </footer>
 

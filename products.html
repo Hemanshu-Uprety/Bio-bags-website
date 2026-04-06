@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-
-<!-- Products Page: Product catalog and specifications -->
 <html class="scroll-smooth" lang="en">
 
-<!-- Head Section: Document metadata and external resources -->
+<!-- HTML Document Head: Contains metadata, title, fonts, stylesheets, and scripts for the webpage -->
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products | ABI Bio Bags Udyog</title>
-    <!-- Font Preconnections: Optimize loading of Google Fonts -->
+    <meta name="description"
+        content="ABI Bio Bags Udyog — Manufacturer of biodegradable carry bags using PBAT and biofiller. B2B bulk supply for retailers, supermarkets, and distributors." />
+    <title>ABI Bio Bags Udyog | Sustainable Packaging for Business</title>
+    <!-- Google Fonts: Loading custom fonts for display and body text -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Main Fonts: Fraunces for headings, Plus Jakarta Sans for body text -->
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
         rel="stylesheet" />
-    <!-- Material Symbols: Icon font for UI elements -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"
-        rel="stylesheet" />
-    <!-- Tailwind CSS: Utility-first CSS framework -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Tailwind Config: Custom theme configuration -->
-    <script src="src/js/tailwind-browser.config.js"></script>
-    <!-- Custom Styles: Additional CSS overrides -->
-    <link rel="stylesheet" href="src/css/style.css" />
+    <!-- Tailwind CDN: Load runtime first, then browser theme extension for styling -->
+    <!-- Custom Stylesheet: Additional CSS for custom styles and overrides -->
+    <link rel="stylesheet" href="src/css/output.css" />
 </head>
 
 <!-- Body: Main document content -->
+
 <body class="bg-stone-warm text-moss-950 antialiased font-sans">
     <!-- Header: Site navigation and branding -->
     <header
@@ -47,7 +41,7 @@
                 <a href="products.html" class="transition-colors hover:text-moss-600">Our Products</a>
                 <a href="printing.html" class="transition-colors hover:text-moss-600">Customized Printing</a>
                 <a href="contact.html" class="transition-colors hover:text-moss-600">Contact</a>
-                <a href="mailto:contact@abibiobags.com"
+                <a href="#cta"
                     class="rounded-full bg-moss-800 px-5 py-2.5 text-white shadow-sm transition-all duration-200 hover:bg-moss-700 hover:shadow-md">Request
                     a Quote</a>
             </nav>
@@ -69,7 +63,8 @@
                     Products</a>
                 <a href="printing.html"
                     class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Customized Printing</a>
-                <a href="contact.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Contact</a>
+                <a href="contact.html"
+                    class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Contact</a>
                 <a href="mailto:contact@abibiobags.com"
                     class="mt-2 rounded-full bg-moss-800 px-4 py-3 text-center text-white transition hover:bg-moss-700">Request
                     a Quote</a>
@@ -82,8 +77,8 @@
         <section class="relative overflow-hidden">
             <!-- Background Image and Overlay: Hero background with gradient overlays -->
             <div class="absolute inset-0">
-                <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=2400&q=85"
-                    alt="" width="2400" height="1600" class="h-full w-full object-cover" role="presentation" />
+                <img src="assets/images/homeimg.jpg" alt="" width="2400" height="1600"
+                    class="h-full w-full object-cover" role="presentation" />
                 <div class="absolute inset-0 bg-gradient-to-br from-moss-950/90 via-moss-950/55 to-moss-950/80"></div>
                 <div
                     class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(255,255,255,0.14),_transparent_52%)]">
@@ -112,7 +107,7 @@
                     <div
                         class="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center animate-fade-up opacity-0 [animation-delay:0.28s]">
                         <!-- Primary CTA: Direct quote request -->
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20ABI%20Bio%20Bags%20Udyog"
+                        <a href="#cta"
                             class="inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-moss-900 shadow-lg transition duration-200 hover:bg-moss-50 hover:shadow-xl">Request
                             a Quote</a>
                         <!-- Secondary CTA: Link to printing services -->
@@ -151,7 +146,7 @@
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Carry Bag (1 kg)</h3>
                         <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Light everyday carry for retail
                             counters and daily use.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Carry%20Bag%201kg%20-%20ABI%20Bio%20Bags%20Udyog"
+                        <a href=""
                             class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Request
                             quote <span aria-hidden="true">→</span></a>
                     </article>
@@ -167,7 +162,7 @@
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Carry Bag (2 kg)</h3>
                         <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Grocery and convenience standard for
                             reliable daily replenishment.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Carry%20Bag%202kg%20-%20ABI%20Bio%20Bags%20Udyog"
+                        <a href=""
                             class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Request
                             quote <span aria-hidden="true">→</span></a>
                     </article>
@@ -183,7 +178,7 @@
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Carry Bag (3 kg)</h3>
                         <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Higher basket sizes for busy retail
                             operations.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Carry%20Bag%203kg%20-%20ABI%20Bio%20Bags%20Udyog"
+                        <a href=""
                             class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Request
                             quote <span aria-hidden="true">→</span></a>
                     </article>
@@ -199,7 +194,7 @@
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Carry Bag (5 kg)</h3>
                         <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Mid-weight loads for extended shopping
                             trips.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Carry%20Bag%205kg%20-%20ABI%20Bio%20Bags%20Udyog"
+                        <a href=""
                             class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Request
                             quote <span aria-hidden="true">→</span></a>
                     </article>
@@ -215,7 +210,7 @@
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Carry Bag (7 kg)</h3>
                         <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Heavier baskets built for consistent
                             handle strength.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Carry%20Bag%207kg%20-%20ABI%20Bio%20Bags%20Udyog"
+                        <a href=""
                             class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Request
                             quote <span aria-hidden="true">→</span></a>
                     </article>
@@ -231,7 +226,7 @@
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Carry Bag (10 kg)</h3>
                         <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Wholesale-style loads for reliable
                             logistics and replenishment.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Carry%20Bag%2010kg%20-%20ABI%20Bio%20Bags%20Udyog"
+                        <a href=""
                             class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Request
                             quote <span aria-hidden="true">→</span></a>
                     </article>
@@ -247,7 +242,8 @@
                     <h2 class="mt-4 font-display text-3xl font-semibold tracking-tight text-moss-950 md:text-4xl">
                         Biodegradable waste solutions</h2>
                     <p class="mt-5 text-base leading-relaxed text-moss-800/80 md:text-lg">
-                        Compost-oriented waste solutions for facilities, municipalities, and households. Designed for reliable performance in waste management systems.
+                        Compost-oriented waste solutions for facilities, municipalities, and households. Designed for
+                        reliable performance in waste management systems.
                     </p>
                 </div>
 
@@ -255,53 +251,77 @@
                     <article
                         class="group rounded-2xl border border-moss-900/8 bg-stone-warm/70 p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/20 hover:shadow-lg relative">
                         <div class="flex items-center justify-between">
-                            <span class="rounded-xl bg-moss-50 px-4 py-2 text-sm font-semibold text-moss-800 relative z-10">10 L</span>
+                            <span
+                                class="rounded-xl bg-moss-50 px-4 py-2 text-sm font-semibold text-moss-800 relative z-10">10
+                                L</span>
                             <span class="material-symbols-outlined text-moss-800">delete</span>
                         </div>
-                        <div class="inline-block px-3 py-1 rounded-full bg-moss-100 text-moss-700 text-xs font-semibold uppercase tracking-wide mt-4">Coming Soon</div>
+                        <div
+                            class="inline-block px-3 py-1 rounded-full bg-moss-100 text-moss-700 text-xs font-semibold uppercase tracking-wide mt-4">
+                            Coming Soon</div>
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Trash Bag (10 L)</h3>
-                        <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Small waste capacity for kitchen and bathroom use.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Trash%20Bag%2010L%20-%20ABI%20Bio%20Bags%20Udyog"
-                            class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Notify me <span aria-hidden="true">→</span></a>
+                        <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Small waste capacity for kitchen and
+                            bathroom use.</p>
+                        <a href=""
+                            class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Notify
+                            me <span aria-hidden="true">→</span></a>
                     </article>
 
                     <article
                         class="group rounded-2xl border border-moss-900/8 bg-stone-warm/70 p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/20 hover:shadow-lg relative">
                         <div class="flex items-center justify-between">
-                            <span class="rounded-xl bg-moss-50 px-4 py-2 text-sm font-semibold text-moss-800 relative z-10">20 L</span>
+                            <span
+                                class="rounded-xl bg-moss-50 px-4 py-2 text-sm font-semibold text-moss-800 relative z-10">20
+                                L</span>
                             <span class="material-symbols-outlined text-moss-800">delete</span>
                         </div>
-                        <div class="inline-block px-3 py-1 rounded-full bg-moss-100 text-moss-700 text-xs font-semibold uppercase tracking-wide mt-4">Coming Soon</div>
+                        <div
+                            class="inline-block px-3 py-1 rounded-full bg-moss-100 text-moss-700 text-xs font-semibold uppercase tracking-wide mt-4">
+                            Coming Soon</div>
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Trash Bag (20 L)</h3>
-                        <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Standard bin size for general household waste.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Trash%20Bag%2020L%20-%20ABI%20Bio%20Bags%20Udyog"
-                            class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Notify me <span aria-hidden="true">→</span></a>
+                        <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Standard bin size for general household
+                            waste.</p>
+                        <a href=""
+                            class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Notify
+                            me <span aria-hidden="true">→</span></a>
                     </article>
 
                     <article
                         class="group rounded-2xl border border-moss-900/8 bg-stone-warm/70 p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/20 hover:shadow-lg relative">
                         <div class="flex items-center justify-between">
-                            <span class="rounded-xl bg-moss-50 px-4 py-2 text-sm font-semibold text-moss-800 relative z-10">30 L</span>
+                            <span
+                                class="rounded-xl bg-moss-50 px-4 py-2 text-sm font-semibold text-moss-800 relative z-10">30
+                                L</span>
                             <span class="material-symbols-outlined text-moss-800">delete</span>
                         </div>
-                        <div class="inline-block px-3 py-1 rounded-full bg-moss-100 text-moss-700 text-xs font-semibold uppercase tracking-wide mt-4">Coming Soon</div>
+                        <div
+                            class="inline-block px-3 py-1 rounded-full bg-moss-100 text-moss-700 text-xs font-semibold uppercase tracking-wide mt-4">
+                            Coming Soon</div>
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Trash Bag (30 L)</h3>
-                        <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Large capacity for office and commercial waste.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Trash%20Bag%2030L%20-%20ABI%20Bio%20Bags%20Udyog"
-                            class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Notify me <span aria-hidden="true">→</span></a>
+                        <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Large capacity for office and
+                            commercial waste.</p>
+                        <a href=""
+                            class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Notify
+                            me <span aria-hidden="true">→</span></a>
                     </article>
 
                     <article
                         class="group rounded-2xl border border-moss-900/8 bg-stone-warm/70 p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-moss-700/20 hover:shadow-lg relative">
                         <div class="flex items-center justify-between">
-                            <span class="rounded-xl bg-moss-50 px-4 py-2 text-sm font-semibold text-moss-800 relative z-10">50 L</span>
+                            <span
+                                class="rounded-xl bg-moss-50 px-4 py-2 text-sm font-semibold text-moss-800 relative z-10">50
+                                L</span>
                             <span class="material-symbols-outlined text-moss-800">delete</span>
                         </div>
-                        <div class="inline-block px-3 py-1 rounded-full bg-moss-100 text-moss-700 text-xs font-semibold uppercase tracking-wide mt-4">Coming Soon</div>
+                        <div
+                            class="inline-block px-3 py-1 rounded-full bg-moss-100 text-moss-700 text-xs font-semibold uppercase tracking-wide mt-4">
+                            Coming Soon</div>
                         <h3 class="mt-5 font-display text-2xl font-semibold text-moss-950">Trash Bag (50 L)</h3>
-                        <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Heavy-duty capacity for industrial and municipal waste.</p>
-                        <a href="mailto:contact@abibiobags.com?subject=Quote%20Request%20-%20Trash%20Bag%2050L%20-%20ABI%20Bio%20Bags%20Udyog"
-                            class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Notify me <span aria-hidden="true">→</span></a>
+                        <p class="mt-3 text-sm leading-relaxed text-moss-800/80">Heavy-duty capacity for industrial and
+                            municipal waste.</p>
+                        <a href=""
+                            class="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-moss-700 transition hover:text-moss-600">Notify
+                            me <span aria-hidden="true">→</span></a>
                     </article>
                 </div>
             </div>
@@ -389,390 +409,96 @@
             </div>
         </section>
 
-        <!-- Final CTA -->
-        <section class="py-32 bg-surface" id="contact">
-            <div class="mx-auto px-8 max-w-6xl">
-                <div
-                    class="signature-gradient rounded-[2rem] p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
-                    <div class="relative z-10">
-                        <h2 class="text-4xl md:text-6xl font-extrabold text-on-primary mb-8 tracking-tight">Ready to
-                            Switch to Better Packaging?</h2>
-                        <p class="text-xl text-on-primary/80 mb-12 max-w-2xl mx-auto">Contact our sales team today for a
-                            custom quote or to request product samples for your business.</p>
-                        <form id="contact-form" class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-left" novalidate>
-                            <div class="flex flex-col gap-2">
-                                <label class="text-on-primary text-sm font-bold" for="full-name">Full Name</label>
-                                <input
-                                    class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface"
-                                    id="full-name" name="full_name" placeholder="e.g. John Doe" required="" type="text" />
-                            </div>
-                            <div class="flex flex-col gap-2">
-                                <label class="text-on-primary text-sm font-bold" for="company-name">Company Name</label>
-                                <input
-                                    class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface"
-                                    id="company-name" name="company_name" placeholder="e.g. EcoRetail Ltd" required="" type="text" />
-                            </div>
-                            <div class="flex flex-col gap-2">
-                                <label class="text-on-primary text-sm font-bold" for="email-address">Email
-                                    Address</label>
-                                <input
-                                    class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface"
-                                    id="email-address" name="email" placeholder="name@company.com" required="" type="email" />
-                            </div>
-                            <div class="flex flex-col gap-2">
-                                <label class="text-on-primary text-sm font-bold" for="phone-number">Phone Number</label>
-                                <input
-                                    class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface"
-                                    id="phone-number" name="phone" placeholder="+1 (555) 000-0000" type="tel" />
-                            </div>
-                            <div class="flex flex-col gap-2 md:col-span-2">
-                                <label class="text-on-primary text-sm font-bold" for="monthly-volume">Estimated Monthly
-                                    Volume</label>
-                                <select
-                                    class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface appearance-none"
-                                    id="monthly-volume" name="volume">
-                                    <option value="">Select volume range</option>
-                                    <option value="&lt;1k">Less than 1,000 bags</option>
-                                    <option value="1k-10k">1,000 - 10,000 bags</option>
-                                    <option value="10k-50k">10,000 - 50,000 bags</option>
-                                    <option value="50k+">Over 50,000 bags</option>
-                                </select>
-                            </div>
-                            <div class="flex flex-col gap-2 md:col-span-2">
-                                <label class="text-on-primary text-sm font-bold" for="message">Message</label>
-                                <textarea
-                                    class="w-full px-6 py-3 rounded-xl border-none focus:ring-2 focus:ring-primary-fixed text-on-surface h-32"
-                                    id="message" name="message"
-                                    placeholder="Tell us about your specific packaging requirements..."></textarea>
-                            </div>
-                            <div class="md:col-span-2 flex justify-center mt-4">
-                                <button type="submit"
-                                    class="bg-white text-primary px-12 py-4 rounded-xl font-extrabold hover:bg-opacity-90 transition-all shadow-lg w-full md:w-auto">Request
-                                    Custom Quote</button>
-                            </div>
-                        </form>
+        <!-- Contact Section: Quote request form with company information -->
+        <section id="cta" class="scroll-mt-24 py-24 md:py-32 bg-stone-warm">
+            <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
+                <!-- Contact Form Header: Introduction to quote request -->
+                <div class="max-w-2xl mx-auto text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-display font-semibold tracking-tight text-moss-950">Get a
+                        Custom Quote
+                    </h2>
+                    <p class="mt-4 text-lg text-moss-800/80">We respond within 24 hours with pricing and availability
+                        for your
+                        specific requirements.</p>
+                </div>
+                <!-- Contact Form: Standardized quote request form -->
+                <form id="contact-form" class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-left"
+                    novalidate>
+                    <!-- Full Name Field: Required customer name input -->
+                    <div class="flex flex-col gap-2">
+                        <label class="text-moss-950 text-sm font-bold" for="full-name">Full Name</label>
+                        <input
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950"
+                            id="full-name" name="full_name" placeholder="e.g. John Doe" required="" type="text" />
                     </div>
-                    <div class="absolute top-0 right-0 p-10 opacity-10">
-                        <span class="material-symbols-outlined text-[15rem]"
-                            style="font-variation-settings: 'FILL' 1;">eco</span>
+                    <!-- Company Name Field: Required business name input -->
+                    <div class="flex flex-col gap-2">
+                        <label class="text-moss-950 text-sm font-bold" for="company-name">Company Name</label>
+                        <input
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950"
+                            id="company-name" name="company_name" placeholder="e.g. EcoRetail Ltd" required=""
+                            type="text" />
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Old layout (hidden) -->
-        <!-- Hero Header -->
-        <header class="hidden px-8 md:px-24 py-20 bg-surface">
-            <span class="label-md tracking-[0.05em] uppercase text-primary font-semibold">Our Portfolio</span>
-            <h1
-                class="text-6xl md:text-8xl font-headline font-extrabold tracking-tight text-on-surface max-w-4xl leading-tight">
-                Precision Engineered <span class="text-primary">Sustainable</span> Packaging
-            </h1>
-            <p class="text-xl text-on-surface-variant max-w-2xl leading-relaxed">
-                ABI Bio Bags Udyog delivers high-performance compostable solutions designed for industrial strength and
-                environmental circularity.
-            </p>
-        </header>
-        <!-- Material Science Section -->
-        <section class="hidden mx-8 md:mx-24 mb-32 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-            <div class="md:col-span-7 rounded-xl overflow-hidden shadow-2xl">
-                <img alt="Bio-material texture" class="w-full h-[400px] object-cover"
-                    data-alt="Macro close-up of white biodegradable polymer pellets showing smooth organic texture with professional studio lighting"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDh-yXIi0oFhDBw4FTzOjPlyYZUjolpvxCoixlFEw2_1GaxONcu4-MTB_Vze0_uUxT8sJzkkeWT1gww5UcQ9E0IIHOgXplcjFAh1IXy_-tN9ouHdJV34MzumoGCQ9aInLnDZ0Dro2JubPtA5PuElwzFY2xB0TTpV99JzfK5a3hqtozkmbkgc3Wrmi0PxC0DE6F41pactHNlKy6VDthq6NZZ4BM9P4XketUxpdrb2ouXxXl_rbqO1gmM3pA_rqwYYup_mtKCjJk2k06d" />
-            </div>
-            <div class="md:col-span-5 bg-surface-container-low p-12 rounded-xl">
-                <h2 class="text-3xl font-headline font-bold mb-6 text-on-surface">Quality &amp; Material</h2>
-                <div class="space-y-6">
-                    <div class="flex gap-4">
-                        <span class="material-symbols-outlined text-primary"
-                            style="font-variation-settings: 'FILL' 1;">science</span>
-                        <div>
-                            <h4 class="font-bold text-on-surface">PBAT + Biofiller Blend</h4>
-                            <p class="text-on-surface-variant text-sm">Our proprietary molecular structure combines
-                                Polybutylene Adipate Terephthalate with natural bio-fillers for optimal tensile
-                                strength.</p>
-                        </div>
+                    <!-- Email Field: Required contact email input -->
+                    <div class="flex flex-col gap-2">
+                        <label class="text-moss-950 text-sm font-bold" for="email-address">Email Address</label>
+                        <input
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950"
+                            id="email-address" name="email" placeholder="name@company.com" required="" type="email" />
                     </div>
-                    <div class="flex gap-4">
-                        <span class="material-symbols-outlined text-primary"
-                            style="font-variation-settings: 'FILL' 1;">eco</span>
-                        <div>
-                            <h4 class="font-bold text-on-surface">100% Compostable</h4>
-                            <p class="text-on-surface-variant text-sm">Certified to degrade into non-toxic organic
-                                matter within 180 days in soil conditions, leaving zero microplastics.</p>
-                        </div>
+                    <!-- Phone Field: Optional contact phone input -->
+                    <div class="flex flex-col gap-2">
+                        <label class="text-moss-950 text-sm font-bold" for="phone-number">Phone Number</label>
+                        <input
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950"
+                            id="phone-number" name="phone" placeholder="+977 9XXXXXXXXX" type="tel" />
                     </div>
-                    <div class="flex gap-4">
-                        <span class="material-symbols-outlined text-primary"
-                            style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
-                        <div>
-                            <h4 class="font-bold text-on-surface">Engineered Precision</h4>
-                            <p class="text-on-surface-variant text-sm">Manufactured using high-precision extrusion
-                                technology to ensure uniform thickness and seam integrity.</p>
-                        </div>
+                    <!-- Volume Field: Estimated monthly bag requirements -->
+                    <div class="flex flex-col gap-2 md:col-span-2">
+                        <label class="text-moss-950 text-sm font-bold" for="monthly-volume">Estimated Monthly
+                            Volume</label>
+                        <select
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 appearance-none"
+                            id="monthly-volume" name="volume">
+                            <option value="">Select volume range</option>
+                            <option value="<1k">Less than 1,000 bags</option>
+                            <option value="1k-10k">1,000 - 10,000 bags</option>
+                            <option value="10k-50k">10,000 - 50,000 bags</option>
+                            <option value="50k+">Over 50,000 bags</option>
+                        </select>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- Product Categories: Carry Bag Series -->
-        <section class="hidden px-8 md:px-24 mb-32">
-            <div class="flex justify-between items-end mb-12">
-                <div>
-                    <span class="label-md tracking-[0.05em] uppercase text-secondary">Series 01</span>
-                    <h3 class="text-4xl font-headline font-bold text-on-surface mt-2">Carry Bag Series</h3>
-                </div>
-                <div class="h-px flex-grow mx-12 bg-outline-variant/20 hidden md:block"></div>
-                <p class="text-on-surface-variant max-w-xs text-right hidden md:block italic">Retail-optimized
-                    structural integrity with soft-touch finish.</p>
-            </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product Card Template -->
-                <div
-                    class="bg-surface-container-lowest rounded-xl p-6 transition-all hover:translate-y-[-8px] border border-transparent hover:border-primary/10">
-                    <div
-                        class="bg-surface-container rounded-lg h-64 mb-6 flex items-center justify-center relative overflow-hidden">
-                        <img alt="Eco bag" class="w-full h-full object-cover"
-                            data-alt="Minimalist product shot of a white bio-plastic shopping bag against a clean sage green background"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkikrErYCCwxWIBemtcpIC8XURkdhcppt-tMXeslqgVCcj9I1iAx1rWMtol2cBCxKKcSscr2Kgdj-o8u09GThWIzJGdg3_qXIFtlP1taf5xJtgc1mbRkGmHfMIZPXGf2aRlOni7b-wQIViFoe77fhgXKnLKXfpV0DjhiLWtWoZtioJpBIbFOV2bxPRVK_M2El0bIvgJamuChEaIM1GraBkMGqwMedvZt48eoUgZsIR3V6_vZ1PSvgdH-MthgaveRAdmP5R36IJz1jv" />
-                        <div
-                            class="absolute top-4 left-4 bg-primary text-on-primary text-xs px-3 py-1 rounded-full font-bold">
-                            1KG CAPACITY</div>
+                    <!-- Message Field: Additional requirements and details -->
+                    <div class="flex flex-col gap-2 md:col-span-2">
+                        <label class="text-moss-950 text-sm font-bold" for="message">Message</label>
+                        <textarea
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 h-32"
+                            id="message" name="message"
+                            placeholder="Tell us about your specific packaging requirements..."></textarea>
                     </div>
-                    <h4 class="text-xl font-headline font-bold text-on-surface mb-2">Retail Carry Bag L1</h4>
-                    <div class="bg-surface-container-low rounded-lg p-4 mb-6 space-y-2">
-                        <div class="flex justify-between text-sm">
-                            <span class="text-on-surface-variant">Dimensions</span>
-                            <span class="font-mono font-medium">10" x 14"</span>
-                        </div>
-                        <div class="flex justify-between text-sm">
-                            <span class="text-on-surface-variant">Thickness</span>
-                            <span class="font-mono font-medium">35 Microns</span>
-                        </div>
+                    <!-- Submit Button: Form submission for quote request -->
+                    <div class="md:col-span-2 flex justify-center mt-4">
+                        <button type="submit"
+                            class="bg-moss-800 text-white px-12 py-4 rounded-xl font-extrabold hover:bg-moss-700 transition-all shadow-lg w-full md:w-auto">Request
+                            Custom Quote</button>
                     </div>
-                    <button
-                        class="w-full bg-primary text-on-primary py-3 rounded-xl font-bold hover:opacity-90 transition-opacity">Inquire
-                        Now</button>
-                </div>
-                <!-- Repeat for other sizes -->
-                <div class="bg-surface-container-lowest rounded-xl p-6 transition-all hover:translate-y-[-8px]">
-                    <div
-                        class="bg-surface-container rounded-lg h-64 mb-6 flex items-center justify-center relative overflow-hidden">
-                        <img alt="Eco bag" class="w-full h-full object-cover"
-                            data-alt="High-resolution studio shot of a medium sized compostable bag showing the material flexibility and matte texture"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuATTzkdurxsV7yGXXeQQcwZY1tqU3_FVQq8bnOMRcJSa9KerjwUFA82PkPJu23utEsOO0Yq294QX4Cjk0B_SLKjMDL6Xh9Le5cuEdRcEo_mo9EaIYxt2i7AMDfuHuX7aM2IApnfV9kyYV8UUpEJpVdF3TUTSdq2pjKMmdWKBKbYHpC_cmaAvHmKbGES6waFkLYmzG4BKRxGg_DgSiu5EBeNSMjQgmv7rwZEulv3aYKxoGDxrKlZjrGKqgioLb1nXAVtErgzEiAyLUbG" />
-                        <div
-                            class="absolute top-4 left-4 bg-primary text-on-primary text-xs px-3 py-1 rounded-full font-bold">
-                            3KG CAPACITY</div>
-                    </div>
-                    <h4 class="text-xl font-headline font-bold text-on-surface mb-2">Retail Carry Bag L3</h4>
-                    <div class="bg-surface-container-low rounded-lg p-4 mb-6 space-y-2">
-                        <div class="flex justify-between text-sm">
-                            <span class="text-on-surface-variant">Dimensions</span>
-                            <span class="font-mono font-medium">14" x 18"</span>
-                        </div>
-                        <div class="flex justify-between text-sm">
-                            <span class="text-on-surface-variant">Thickness</span>
-                            <span class="font-mono font-medium">45 Microns</span>
-                        </div>
-                    </div>
-                    <button
-                        class="w-full bg-primary text-on-primary py-3 rounded-xl font-bold hover:opacity-90 transition-opacity">Inquire
-                        Now</button>
-                </div>
-                <div class="bg-surface-container-lowest rounded-xl p-6 transition-all hover:translate-y-[-8px]">
-                    <div
-                        class="bg-surface-container rounded-lg h-64 mb-6 flex items-center justify-center relative overflow-hidden">
-                        <img alt="Eco bag" class="w-full h-full object-cover"
-                            data-alt="Large scale compostable packing material being handled by professional gloved hands to show scale and industrial quality"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTygZRMJrDX9CQQNAx6Ms-3Mkj_KJtJQq9CJHGwRfJ7mgB_3HsaDGL2hfmTKBLbjDx7c2o0-9_6NoFDpyxwOuQv3vq7-Ff7EOVCou1fpksEsw4UbD1jl1W7l7qY2dPbxuJ9dZzdiQkc4R6klMytYja-cRdQz6zVRDMIxjS3KVU-9bDc2Z9QX7C3c36cV75GlNJlp8mUT78qdnPnt4WOt5U5WBXGUdmvHekUOEnUZii579a2bbSo-M6JPt_lar22Wx6Q3lSnYl5Oqfq" />
-                        <div
-                            class="absolute top-4 left-4 bg-primary text-on-primary text-xs px-3 py-1 rounded-full font-bold">
-                            10KG CAPACITY</div>
-                    </div>
-                    <h4 class="text-xl font-headline font-bold text-on-surface mb-2">Retail Carry Bag L10</h4>
-                    <div class="bg-surface-container-low rounded-lg p-4 mb-6 space-y-2">
-                        <div class="flex justify-between text-sm">
-                            <span class="text-on-surface-variant">Dimensions</span>
-                            <span class="font-mono font-medium">20" x 28"</span>
-                        </div>
-                        <div class="flex justify-between text-sm">
-                            <span class="text-on-surface-variant">Thickness</span>
-                            <span class="font-mono font-medium">65 Microns</span>
-                        </div>
-                    </div>
-                    <button
-                        class="w-full bg-primary text-on-primary py-3 rounded-xl font-bold hover:opacity-90 transition-opacity">Inquire
-                        Now</button>
-                </div>
-            </div>
-            <!-- Other sizes displayed as a list/grid -->
-            <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div class="bg-surface-container-low p-4 rounded-xl flex items-center justify-between">
-                    <span class="font-bold">2KG Series</span>
-                    <button class="text-primary font-medium text-sm hover:underline">View Specs</button>
-                </div>
-                <div class="bg-surface-container-low p-4 rounded-xl flex items-center justify-between">
-                    <span class="font-bold">5KG Series</span>
-                    <button class="text-primary font-medium text-sm hover:underline">View Specs</button>
-                </div>
-                <div class="bg-surface-container-low p-4 rounded-xl flex items-center justify-between">
-                    <span class="font-bold">7KG Series</span>
-                    <button class="text-primary font-medium text-sm hover:underline">View Specs</button>
-                </div>
-                <div class="bg-surface-container-low p-4 rounded-xl flex items-center justify-between">
-                    <span class="font-bold">Custom Weight</span>
-                    <button class="text-primary font-medium text-sm hover:underline">Consult</button>
-                </div>
-            </div>
-        </section>
-        <!-- Industrial Series -->
-        <section class="hidden px-8 md:px-24 mb-32">
-            <div class="bg-on-surface text-surface rounded-3xl p-12 overflow-hidden relative">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
-                    <div>
-                        <span class="label-md tracking-[0.05em] uppercase text-primary-fixed-dim">Series 02</span>
-                        <h3 class="text-5xl font-headline font-bold mb-6 mt-2">Industrial Heavy-Duty Series</h3>
-                        <p class="text-surface-variant text-lg leading-relaxed mb-8">
-                            Engineered for high-volume manufacturing and bulk logistics. Our industrial liners provide
-                            superior puncture resistance without compromising compostability.
-                        </p>
-                        <ul class="space-y-4 mb-10">
-                            <li class="flex items-center gap-3">
-                                <span class="material-symbols-outlined text-primary-fixed-dim">check_circle</span>
-                                Bulk Supply Liners (50kg+ capacity)
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <span class="material-symbols-outlined text-primary-fixed-dim">check_circle</span>
-                                Chemical Resistance (Standard Industrial)
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <span class="material-symbols-outlined text-primary-fixed-dim">check_circle</span>
-                                Reinforced Seam Technology
-                            </li>
-                        </ul>
-                        <button class="bg-primary text-on-primary px-8 py-4 rounded-xl font-bold">Request Industrial
-                            Catalog</button>
-                    </div>
-                    <div class="rounded-2xl overflow-hidden grayscale contrast-125">
-                        <img alt="Industrial warehouse" class="w-full h-full object-cover"
-                            data-alt="Monochrome wide shot of an industrial warehouse with stacks of pallets and high-precision manufacturing equipment in the background"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8hruaEwrod1mmsOdCtzHUHZPMoR_bbIYcMXa0F3vWePFU2r8YleNm25d-stqgMzPdS2KbX-CsQIECCwGw4leixFrOLd8nN_at3vpbH4frTIchqWNmlvjja2H3uYRWYemPhOZ_8jFGYX9jD5qxpu0MBQqoNe8jbML9XzCqwuq6SxWd85EHzl5Ne2JE-FWS0uYRgn8R6TnVDgfznsRSk2Jn8NOz_x9UNuKlMayEPPZZww2DgoChn_vES0RX1v6M1ebntPDZGS5nwlTs" />
-                    </div>
-                </div>
-                <!-- Asymmetric texture overlap -->
-                <div
-                    class="absolute -bottom-20 -right-20 w-64 h-64 bg-primary-container rounded-full opacity-20 blur-3xl">
-                </div>
-            </div>
-        </section>
-        <!-- Trash Bags (Coming Soon) -->
-        <section class="hidden px-8 md:px-24 mb-32 opacity-60">
-            <div
-                class="flex flex-col md:flex-row items-center gap-12 border-2 border-dashed border-outline-variant/30 rounded-3xl p-12">
-                <div class="w-full md:w-1/3">
-                    <div class="aspect-square bg-surface-container rounded-2xl relative overflow-hidden grayscale">
-                        <img alt="Trash bags" class="w-full h-full object-cover blur-sm"
-                            data-alt="Blurred artistic shot of black waste bags in a clean clinical environment, conveying a sense of mystery and upcoming launch"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAzwcq-L4PrMVErLpkUR4VFV9rbxLS6N_UEj6m6-IWEP8rRtXVidLsdv3y48d1a1TLDlDY-K5E18dWAoUiR1kK7a6Po88tu8RGZHwfJEV9JmvzWrnkRI0V9j1ZVlvBUcB4ZjH0sDQTRygn_F5Xw3q4XBXo2vJdLXns6p-q2Gpw8ogu6e1bNfhuaMbuolIeWlyHpluijY4x5QVv0vjhqA2aSPR2gZgnRTtEkXdbEautUJS1cHewBglbSPNBCuR3X8hZ-PUrg4GrQ7gl" />
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <span class="bg-on-surface text-surface px-6 py-2 rounded-full font-bold text-sm">COMING Q4
-                                2024</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full md:w-2/3">
-                    <span class="label-md tracking-[0.05em] uppercase text-secondary">Series 03</span>
-                    <h3 class="text-4xl font-headline font-bold text-on-surface mt-2 mb-4">Eco-Friendly Trash Bags</h3>
-                    <p class="text-on-surface-variant text-lg">We are currently in the final testing phase of our
-                        draw-string, high-density compostable trash bag series. Designed for municipal composting and
-                        home disposal systems.</p>
-                </div>
-            </div>
-        </section>
-        <!-- Technical Specifications Table -->
-        <section class="hidden px-8 md:px-24 mb-32">
-            <div class="mb-12">
-                <span class="label-md tracking-[0.05em] uppercase text-primary">Data Sheet</span>
-                <h3 class="text-4xl font-headline font-bold text-on-surface mt-2">Technical Specifications</h3>
-            </div>
-            <div class="overflow-hidden rounded-2xl border border-outline-variant/10 shadow-sm">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="bg-surface-container-low">
-                            <th class="px-6 py-5 font-bold text-on-surface uppercase tracking-wider text-xs">Parameter
-                            </th>
-                            <th class="px-6 py-5 font-bold text-on-surface uppercase tracking-wider text-xs">Unit</th>
-                            <th class="px-6 py-5 font-bold text-on-surface uppercase tracking-wider text-xs">Test Method
-                            </th>
-                            <th class="px-6 py-5 font-bold text-on-surface uppercase tracking-wider text-xs text-right">
-                                Value</th>
-                        </tr>
-                    </thead>
-                    <tbody class="divide-y divide-outline-variant/10">
-                        <tr class="bg-surface-container-lowest">
-                            <td class="px-6 py-4 font-medium">Tensile Strength (MD)</td>
-                            <td class="px-6 py-4 text-on-surface-variant">MPa</td>
-                            <td class="px-6 py-4 text-on-surface-variant">ASTM D882</td>
-                            <td class="px-6 py-4 text-right font-mono font-bold text-primary">≥ 22.0</td>
-                        </tr>
-                        <tr class="bg-surface-container-low">
-                            <td class="px-6 py-4 font-medium">Elongation at Break</td>
-                            <td class="px-6 py-4 text-on-surface-variant">%</td>
-                            <td class="px-6 py-4 text-on-surface-variant">ASTM D882</td>
-                            <td class="px-6 py-4 text-right font-mono font-bold text-primary">≥ 350.0</td>
-                        </tr>
-                        <tr class="bg-surface-container-lowest">
-                            <td class="px-6 py-4 font-medium">Dart Impact Resistance</td>
-                            <td class="px-6 py-4 text-on-surface-variant">g</td>
-                            <td class="px-6 py-4 text-on-surface-variant">ASTM D1709</td>
-                            <td class="px-6 py-4 text-right font-mono font-bold text-primary">≥ 180.0</td>
-                        </tr>
-                        <tr class="bg-surface-container-low">
-                            <td class="px-6 py-4 font-medium">Decomposition Time</td>
-                            <td class="px-6 py-4 text-on-surface-variant">Days</td>
-                            <td class="px-6 py-4 text-on-surface-variant">ISO 14855</td>
-                            <td class="px-6 py-4 text-right font-mono font-bold text-primary">≤ 180</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p class="mt-4 text-xs text-on-surface-variant italic text-right">* All values represent averages based on
-                40-micron material thickness samples.</p>
-        </section>
-        <!-- Call to Action -->
-        <section class="hidden px-8 md:px-24 mb-24">
-            <div
-                class="bg-primary text-on-primary rounded-3xl p-16 flex flex-col md:flex-row items-center justify-between gap-12 relative overflow-hidden">
-                <div class="relative z-10 max-w-2xl">
-                    <h3 class="text-5xl font-headline font-extrabold tracking-tight mb-6">Need a Custom Solution?</h3>
-                    <p class="text-on-primary-container text-xl opacity-90">Our engineers can develop specialized blends
-                        for your specific load or environmental requirements. Let's discuss your custom packaging needs.
-                    </p>
-                </div>
-                <div class="relative z-10 flex gap-4 w-full md:w-auto">
-                    <button
-                        class="flex-1 md:flex-none bg-surface-container-lowest text-primary px-8 py-5 rounded-xl font-bold shadow-xl hover:bg-surface transition-colors">Start
-                        Inquiry</button>
-                    <button
-                        class="flex-1 md:flex-none bg-primary-container text-on-primary-container px-8 py-5 rounded-xl font-bold border border-on-primary-container/20">Talk
-                        to Specialist</button>
-                </div>
-                <!-- Background decoration -->
-                <div
-                    class="absolute -top-1/2 -left-1/4 w-[800px] h-[800px] bg-white opacity-5 rounded-full pointer-events-none">
-                </div>
+                </form>
             </div>
         </section>
     </main>
+
+    <!-- Footer Section: Company information and navigation links -->
     <footer class="border-t border-moss-900/10 bg-stone-warm">
         <div class="mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-12 md:gap-10 md:px-8 lg:px-10">
+            <!-- Company Info: Brand name and description -->
             <div class="md:col-span-5">
                 <p class="font-display text-xl font-semibold text-moss-950">ABI Bio Bags Udyog</p>
                 <p class="mt-4 max-w-sm text-sm leading-relaxed text-moss-800/80">
                     Biodegradable carry bags manufactured with PBAT and biofiller. Order-based production and bulk
-                    supply for retail, wholesale, and distribution partners.
+                    supply for
+                    retail, wholesale, and distribution partners.
                 </p>
             </div>
+            <!-- Quick Links: Site navigation -->
             <div class="md:col-span-3">
                 <p class="text-xs font-semibold uppercase tracking-[0.2em] text-moss-700">Quick links</p>
                 <ul class="mt-4 space-y-3 text-sm font-medium text-moss-800">
@@ -784,63 +510,44 @@
                     <li><a class="transition hover:text-moss-600" href="index.html#quote">Request a quote</a></li>
                 </ul>
             </div>
+
+            <!-- Contact Info: Company contact details -->
             <div class="md:col-span-4">
                 <p class="text-xs font-semibold uppercase tracking-[0.2em] text-moss-700">Contact</p>
                 <ul class="mt-4 space-y-4 text-sm text-moss-800/90">
                     <li>
                         <span class="block font-medium text-moss-950">Email</span>
-                        <a class="transition hover:text-moss-600"
-                            href="mailto:contact@abibiobags.com">contact@abibiobags.com</a>
+                        <a class="transition hover:text-moss-600" href="">info@abibiodegradable.com.np</a>
                     </li>
                     <li>
-                        <span class="block font-medium text-moss-950">Manufacturing</span>
-                        <span>ABI Bio Bags Udyog — update with your full address in production.</span>
+                        <span class="block font-medium text-moss-950">Phone</span>
+                        <a href="tel:+977 9852643400" class="transition hover:text-moss-600">+977 9852643400</a>
+                    </li>
+                    <li>
+                        <span class="block font-medium text-moss-950">Location</span>
+                        <a href="https://maps.google.com/?q=Nepal" class="transition hover:text-moss-600"
+                            target="_blank" rel="noopener noreferrer">Nepal</a>
                     </li>
                 </ul>
             </div>
         </div>
+        <!-- Copyright Notice: Legal footer -->
         <div class="border-t border-moss-900/10 py-6">
-            <p class="text-center text-xs text-moss-700/90">© 2026 ABI Bio Bags Udyog. All rights reserved.</p>
+            <p class="text-center text-xs text-moss-700/90 font-bold">© 2026 ABI Bio Bags Udyog. All rights reserved.
+            </p>
         </div>
     </footer>
+
     <script src="src/js/main.js" defer></script>
-    <script>
-        document.getElementById('contact-form').addEventListener('submit', async function(e) {
-            e.preventDefault();
-            
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData);
-            
-            try {
-                const response = await fetch('/api/send', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(data),
-                });
-                
-                const result = await response.json();
-                
-                if (response.ok) {
-                    alert('Thank you for your message! We will get back to you soon.');
-                    this.reset();
-                } else {
-                    alert('Sorry, there was an error sending your message. Please try again or contact us directly.');
-                }
-            } catch (error) {
-                alert('Sorry, there was an error sending your message. Please try again or contact us directly.');
-            }
-        });
-    </script>
 
     <!-- WhatsApp Floating Button -->
     <a href="https://wa.me/9852643400?text=Hello%20ABI%20Bio%20Bags%20Udyog%2C%20I%20would%20like%20to%20inquire%20about%20your%20biodegradable%20packaging%20solutions."
-      class="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-white shadow-2xl transition-all duration-300 hover:bg-green-600 hover:scale-110 hover:shadow-3xl md:bottom-8 md:right-8 md:h-20 md:w-20"
-      target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
-      <svg class="h-8 w-8 md:h-10 md:w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
-      </svg>
+        class="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-white shadow-2xl transition-all duration-300 hover:bg-green-600 hover:scale-110 hover:shadow-3xl md:bottom-8 md:right-8 md:h-20 md:w-20"
+        target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+        <svg class="h-8 w-8 md:h-10 md:w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
+        </svg>
     </a>
 </body>
 

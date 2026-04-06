@@ -1,35 +1,27 @@
 <!DOCTYPE html>
-
-<!-- Contact Page: Contact information and quote request form -->
 <html class="scroll-smooth" lang="en">
 
-<!-- Head Section: Document metadata and external resources -->
+<!-- HTML Document Head: Contains metadata, title, fonts, stylesheets, and scripts for the webpage -->
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Contact ABI Bio Bags Udyog — Reach out for quotes, inquiries, or partnerships for biodegradable packaging solutions." />
-    <title>Contact Us | ABI Bio Bags Udyog</title>
-    <!-- Font Preconnections: Optimize loading of Google Fonts -->
+        content="ABI Bio Bags Udyog — Manufacturer of biodegradable carry bags using PBAT and biofiller. B2B bulk supply for retailers, supermarkets, and distributors." />
+    <title>ABI Bio Bags Udyog | Sustainable Packaging for Business</title>
+    <!-- Google Fonts: Loading custom fonts for display and body text -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Main Fonts: Fraunces for headings, Plus Jakarta Sans for body text -->
     <link
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
         rel="stylesheet" />
-    <!-- Material Symbols: Icon font for UI elements -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"
-        rel="stylesheet" />
-    <!-- Tailwind CSS: Utility-first CSS framework -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Tailwind Config: Custom theme configuration -->
-    <script src="src/js/tailwind-browser.config.js"></script>
-    <!-- Custom Styles: Additional CSS overrides -->
-    <link rel="stylesheet" href="src/css/style.css" />
+    <!-- Tailwind CDN: Load runtime first, then browser theme extension for styling -->
+    <!-- Custom Stylesheet: Additional CSS for custom styles and overrides -->
+    <link rel="stylesheet" href="src/css/output.css" />
 </head>
 
 <!-- Body: Main document content -->
+
 <body class="bg-stone-warm text-moss-950 antialiased font-sans">
     <!-- Header: Site navigation and branding -->
     <header
@@ -49,7 +41,7 @@
                 <a href="products.html" class="transition-colors hover:text-moss-600">Our Products</a>
                 <a href="printing.html" class="transition-colors hover:text-moss-600">Customized Printing</a>
                 <a href="contact.html" class="transition-colors hover:text-moss-600">Contact</a>
-                <a href="index.html#quote"
+                <a href="#cta"
                     class="rounded-full bg-moss-800 px-5 py-2.5 text-white shadow-sm transition-all duration-200 hover:bg-moss-700 hover:shadow-md">Request
                     a Quote</a>
             </nav>
@@ -72,8 +64,9 @@
                 <a href="printing.html"
                     class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Customized
                     Printing</a>
-                <a href="contact.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Contact</a>
-                <a href="index.html#quote"
+                <a href="contact.html"
+                    class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Contact</a>
+                <a href="#cta"
                     class="mt-2 rounded-full bg-moss-800 px-4 py-3 text-center text-white transition hover:bg-moss-700">Request
                     a Quote</a>
             </nav>
@@ -84,8 +77,8 @@
         <!-- Hero Section: Page introduction with background image -->
         <section class="relative min-h-[70vh] flex items-center overflow-hidden" aria-label="Hero">
             <div class="absolute inset-0">
-                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=2400&q=85" alt=""
-                    width="2400" height="1600" class="h-full w-full object-cover" role="presentation" />
+                <img src="assets/images/contactpageimg.jpg" alt="" width="2400" height="1600"
+                    class="h-full w-full object-cover" role="presentation" />
                 <div class="absolute inset-0 bg-gradient-to-br from-moss-950/85 via-moss-900/70 to-moss-950/80"></div>
                 <div
                     class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(255,255,255,0.12),_transparent_55%)]">
@@ -102,11 +95,12 @@
                 </h1>
                 <p
                     class="mt-8 max-w-2xl text-lg leading-relaxed text-white/85 md:text-xl animate-fade-up opacity-0 [animation-delay:0.2s]">
-                    Whether you're interested in our standard carry bags, custom printing options, or have questions about our biodegradable materials — our team is ready to help.
+                    Whether you're interested in our standard carry bags, custom printing options, or have questions
+                    about our biodegradable materials — our team is ready to help.
                 </p>
                 <div
                     class="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center animate-fade-up opacity-0 [animation-delay:0.28s]">
-                    <a href="contact.html#form"
+                    <a href="#cta"
                         class="inline-flex items-center justify-center rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-moss-900 shadow-lg transition duration-200 hover:bg-moss-50 hover:shadow-xl">
                         Send us a Message
                     </a>
@@ -147,8 +141,10 @@
                             </svg>
                         </div>
                         <h3 class="mt-5 font-display text-lg font-semibold text-moss-950">B2B Partnerships</h3>
-                        <p class="mt-3 text-sm text-moss-800/80">Dedicated support for bulk supply and retail partnerships.</p>
-                        <p class="mt-4 text-sm font-semibold text-moss-700">Direct conversations with operations teams</p>
+                        <p class="mt-3 text-sm text-moss-800/80">Dedicated support for bulk supply and retail
+                            partnerships.</p>
+                        <p class="mt-4 text-sm font-semibold text-moss-700">Direct conversations with operations teams
+                        </p>
                     </div>
 
                     <!-- Response Time -->
@@ -161,15 +157,17 @@
                             </svg>
                         </div>
                         <h3 class="mt-5 font-display text-lg font-semibold text-moss-950">Response Time</h3>
-                        <p class="mt-3 text-sm text-moss-800/80">We typically respond to inquiries within 24 business hours.</p>
-                        <p class="mt-4 text-xs font-medium uppercase tracking-widest text-moss-600">Quick turnaround on quotes</p>
+                        <p class="mt-3 text-sm text-moss-800/80">We typically respond to inquiries within 24 business
+                            hours.</p>
+                        <p class="mt-4 text-xs font-medium uppercase tracking-widest text-moss-600">Quick turnaround on
+                            quotes</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Form Section: Inquiry submission form -->
-        <section id="form" class="bg-white py-20 md:py-28">
+        <section id="cta" class="bg-white py-20 md:py-28">
             <div class="mx-auto max-w-3xl px-5 md:px-8 lg:px-10">
                 <div class="mb-12">
                     <p class="text-xs font-semibold uppercase tracking-[0.3em] text-moss-600">Send us a message</p>
@@ -186,7 +184,8 @@
                                 placeholder="Your full name" />
                         </div>
                         <div>
-                            <label for="company-name" class="block text-sm font-semibold text-moss-950">Company Name</label>
+                            <label for="company-name" class="block text-sm font-semibold text-moss-950">Company
+                                Name</label>
                             <input type="text" id="company-name" name="company_name" required
                                 class="mt-2 w-full rounded-lg border border-moss-900/10 bg-stone-warm px-4 py-3 text-moss-950 placeholder:text-moss-600/50 transition focus:border-moss-700 focus:bg-white focus:outline-none focus:ring-1 focus:ring-moss-700/30"
                                 placeholder="Your company name" />
@@ -195,13 +194,15 @@
 
                     <div class="grid gap-6 md:grid-cols-2">
                         <div>
-                            <label for="email-address" class="block text-sm font-semibold text-moss-950">Email Address</label>
+                            <label for="email-address" class="block text-sm font-semibold text-moss-950">Email
+                                Address</label>
                             <input type="email" id="email-address" name="email" required
                                 class="mt-2 w-full rounded-lg border border-moss-900/10 bg-stone-warm px-4 py-3 text-moss-950 placeholder:text-moss-600/50 transition focus:border-moss-700 focus:bg-white focus:outline-none focus:ring-1 focus:ring-moss-700/30"
                                 placeholder="your@email.com" />
                         </div>
                         <div>
-                            <label for="phone-number" class="block text-sm font-semibold text-moss-950">Phone Number</label>
+                            <label for="phone-number" class="block text-sm font-semibold text-moss-950">Phone
+                                Number</label>
                             <input type="tel" id="phone-number" name="phone"
                                 class="mt-2 w-full rounded-lg border border-moss-900/10 bg-stone-warm px-4 py-3 text-moss-950 placeholder:text-moss-600/50 transition focus:border-moss-700 focus:bg-white focus:outline-none focus:ring-1 focus:ring-moss-700/30"
                                 placeholder="+977 1 XXXX XXXX" />
@@ -209,7 +210,8 @@
                     </div>
 
                     <div>
-                        <label for="monthly-volume" class="block text-sm font-semibold text-moss-950">Estimated Monthly Volume</label>
+                        <label for="monthly-volume" class="block text-sm font-semibold text-moss-950">Estimated Monthly
+                            Volume</label>
                         <select id="monthly-volume" name="volume" required
                             class="mt-2 w-full rounded-lg border border-moss-900/10 bg-stone-warm px-4 py-3 text-moss-950 transition focus:border-moss-700 focus:bg-white focus:outline-none focus:ring-1 focus:ring-moss-700/30">
                             <option value="">Select volume range</option>
@@ -241,7 +243,7 @@
             <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
                 <div class="text-center">
                     <p class="text-sm text-moss-700">Prefer to reach out directly?</p>
-                    <a href="mailto:contact@abibiobags.com"
+                    <a href=""
                         class="mt-3 inline-flex items-center justify-center rounded-full bg-moss-800 px-8 py-3 text-sm font-semibold text-white transition hover:bg-moss-700">Email
                         us at contact@abibiobags.com</a>
                 </div>
@@ -257,7 +259,8 @@
                 <p class="font-display text-xl font-semibold text-moss-950">ABI Bio Bags Udyog</p>
                 <p class="mt-4 max-w-sm text-sm leading-relaxed text-moss-800/80">
                     Biodegradable carry bags manufactured with PBAT and biofiller. Order-based production and bulk
-                    supply for retail, wholesale, and distribution partners.
+                    supply for
+                    retail, wholesale, and distribution partners.
                 </p>
             </div>
             <!-- Quick Links: Site navigation -->
@@ -269,72 +272,48 @@
                     <li><a class="transition hover:text-moss-600" href="products.html">Products</a></li>
                     <li><a class="transition hover:text-moss-600" href="printing.html">Custom printing</a></li>
                     <li><a class="transition hover:text-moss-600" href="contact.html">Contact</a></li>
+                    <li><a class="transition hover:text-moss-600" href="index.html#quote">Request a quote</a></li>
                 </ul>
             </div>
+
             <!-- Contact Info: Company contact details -->
             <div class="md:col-span-4">
                 <p class="text-xs font-semibold uppercase tracking-[0.2em] text-moss-700">Contact</p>
                 <ul class="mt-4 space-y-4 text-sm text-moss-800/90">
                     <li>
                         <span class="block font-medium text-moss-950">Email</span>
-                        <a class="transition hover:text-moss-600"
-                            href="mailto:contact@abibiobags.com">contact@abibiobags.com</a>
+                        <a class="transition hover:text-moss-600" href="">info@abibiodegradable.com.np</a>
                     </li>
                     <li>
-                        <span class="block font-medium text-moss-950">Manufacturing</span>
-                        <span>ABI Bio Bags Udyog — update with your full address in production.</span>
+                        <span class="block font-medium text-moss-950">Phone</span>
+                        <a href="tel:+977 9852643400" class="transition hover:text-moss-600">+977 9852643400</a>
+                    </li>
+                    <li>
+                        <span class="block font-medium text-moss-950">Location</span>
+                        <a href="https://maps.google.com/?q=Nepal" class="transition hover:text-moss-600"
+                            target="_blank" rel="noopener noreferrer">Nepal</a>
                     </li>
                 </ul>
             </div>
         </div>
         <!-- Copyright Notice: Legal footer -->
         <div class="border-t border-moss-900/10 py-6">
-            <p class="text-center text-xs text-moss-700/90">© 2026 ABI Bio Bags Udyog. All rights reserved.</p>
+            <p class="text-center text-xs text-moss-700/90 font-bold">© 2026 ABI Bio Bags Udyog. All rights reserved.
+            </p>
         </div>
     </footer>
-
-    <!-- Form Submission Script: Handles contact form submission via API -->
-    <script>
-      document.getElementById('contact-form').addEventListener('submit', async function(e) {
-        e.preventDefault();
-
-        const formData = new FormData(this);
-        const data = Object.fromEntries(formData);
-
-        try {
-          const response = await fetch('/api/send', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-          });
-
-          const result = await response.json();
-
-          if (response.ok) {
-            alert('Thank you! Your inquiry has been sent successfully. We will respond within 24 hours.');
-            this.reset();
-          } else {
-            alert('Sorry, there was an error sending your inquiry. Please try again or contact us directly.');
-          }
-        } catch (error) {
-          console.error('Error:', error);
-          alert('Sorry, there was an error sending your inquiry. Please try again or contact us directly.');
-        }
-      });
-    </script>
 
     <!-- Main JavaScript: Site-wide behaviors and interactions -->
     <script src="src/js/main.js" defer></script>
 
     <!-- WhatsApp Floating Button: Direct contact via WhatsApp -->
     <a href="https://wa.me/9852643400?text=Hello%20ABI%20Bio%20Bags%20Udyog%2C%20I%20would%20like%20to%20inquire%20about%20your%20biodegradable%20packaging%20solutions."
-      class="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-white shadow-2xl transition-all duration-300 hover:bg-green-600 hover:scale-110 hover:shadow-3xl md:bottom-8 md:right-8 md:h-20 md:w-20"
-      target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
-      <svg class="h-8 w-8 md:h-10 md:w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
-      </svg>
+        class="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-green-500 text-white shadow-2xl transition-all duration-300 hover:bg-green-600 hover:scale-110 hover:shadow-3xl md:bottom-8 md:right-8 md:h-20 md:w-20"
+        target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+        <svg class="h-8 w-8 md:h-10 md:w-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
+        </svg>
     </a>
 </body>
 
