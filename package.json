@@ -1,7 +1,7 @@
 {
   "name": "abi-biobags-udyog-website",
   "version": "1.0.0",
-  "description": "A professional website for ABI Bio Bags Udyog, a manufacturer of biodegradable carry bags using PBAT and biofiller materials. The website showcases B2B biodegradable packaging solutions for retailers, supermarkets, and distributors.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Hemanshu-Uprety/bio-bags-website/issues"
   },

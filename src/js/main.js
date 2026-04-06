@@ -1,6 +1,45 @@
 /**
  * Main JavaScript: Site-wide UI behaviors and interactions (plain JS, no frameworks).
  */
+
+/* Form Submission Script: Handles contact form submission via API */
+document
+  .getElementById("contact-form")
+  .addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(this);
+    const data = Object.fromEntries(formData);
+
+    try {
+      const response = await fetch("/api/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        alert(
+          "Thank you! Your quote request has been sent successfully. We will respond within 24 hours.",
+        );
+        this.reset();
+      } else {
+        alert(
+          "Sorry, there was an error sending your request. Please try again or contact us directly.",
+        );
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert(
+        "Sorry, there was an error sending your request. Please try again or contact us directly.",
+      );
+    }
+  });
+
 (function () {
   "use strict";
 
