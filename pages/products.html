@@ -17,7 +17,8 @@
         rel="stylesheet" />
     <!-- Tailwind CDN: Load runtime first, then browser theme extension for styling -->
     <!-- Custom Stylesheet: Additional CSS for custom styles and overrides -->
-    <link rel="stylesheet" href="src/css/output.css" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="../src/css/input.css">
 </head>
 
 <!-- Body: Main document content -->
@@ -28,7 +29,7 @@
         class="fixed top-0 inset-x-0 z-50 border-b border-moss-900/5 bg-white/75 backdrop-blur-xl transition-[background,box-shadow] duration-300"
         id="site-header">
         <div class="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-4 md:px-8 lg:px-10">
-            <a href="index.html" class="group flex flex-col leading-tight">
+            <a href="../index.html" class="group flex flex-col leading-tight">
                 <span
                     class="font-display text-lg font-semibold tracking-tight text-moss-950 transition-colors group-hover:text-moss-700 md:text-xl">ABI
                     Bio Bags Udyog</span>
@@ -36,7 +37,7 @@
                     packaging</span>
             </a>
             <nav class="hidden items-center gap-9 text-sm font-medium text-moss-800 md:flex" aria-label="Primary">
-                <a href="index.html" class="transition-colors hover:text-moss-600">Home</a>
+                <a href="../index.html" class="transition-colors hover:text-moss-600">Home</a>
                 <a href="about.html" class="transition-colors hover:text-moss-600">About Us</a>
                 <a href="products.html" class="transition-colors hover:text-moss-600">Our Products</a>
                 <a href="printing.html" class="transition-colors hover:text-moss-600">Customized Printing</a>
@@ -57,7 +58,7 @@
         </div>
         <div class="hidden border-t border-moss-900/5 bg-white/95 px-5 py-6 backdrop-blur-xl md:hidden" id="mobile-nav">
             <nav class="flex flex-col gap-1 text-base font-medium" aria-label="Mobile">
-                <a href="index.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Home</a>
+                <a href="../index.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Home</a>
                 <a href="about.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">About Us</a>
                 <a href="products.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Our
                     Products</a>
@@ -65,7 +66,7 @@
                     class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Customized Printing</a>
                 <a href="contact.html"
                     class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Contact</a>
-                <a href="mailto:contact@abibiobags.com"
+                <a href="#cta"
                     class="mt-2 rounded-full bg-moss-800 px-4 py-3 text-center text-white transition hover:bg-moss-700">Request
                     a Quote</a>
             </nav>
@@ -77,7 +78,7 @@
         <section class="relative overflow-hidden">
             <!-- Background Image and Overlay: Hero background with gradient overlays -->
             <div class="absolute inset-0">
-                <img src="assets/images/homeimg.jpg" alt="" width="2400" height="1600"
+                <img src="../assets/images/homeimg.jpg" alt="" width="2400" height="1600"
                     class="h-full w-full object-cover" role="presentation" />
                 <div class="absolute inset-0 bg-gradient-to-br from-moss-950/90 via-moss-950/55 to-moss-950/80"></div>
                 <div
@@ -502,12 +503,12 @@
             <div class="md:col-span-3">
                 <p class="text-xs font-semibold uppercase tracking-[0.2em] text-moss-700">Quick links</p>
                 <ul class="mt-4 space-y-3 text-sm font-medium text-moss-800">
-                    <li><a class="transition hover:text-moss-600" href="index.html">Home</a></li>
+                    <li><a class="transition hover:text-moss-600" href="../index.html">Home</a></li>
                     <li><a class="transition hover:text-moss-600" href="about.html">About</a></li>
                     <li><a class="transition hover:text-moss-600" href="products.html">Products</a></li>
                     <li><a class="transition hover:text-moss-600" href="printing.html">Custom printing</a></li>
                     <li><a class="transition hover:text-moss-600" href="contact.html">Contact</a></li>
-                    <li><a class="transition hover:text-moss-600" href="index.html#quote">Request a quote</a></li>
+                    <li><a class="transition hover:text-moss-600" href="products.html#cta">Request a quote</a></li>
                 </ul>
             </div>
 
@@ -548,7 +549,7 @@
         </svg>
     </a>
 
-    <script src="src/js/main.js" defer></script>
+    <script src="../src/js/main.js" defer></script>
 
 </body>
 

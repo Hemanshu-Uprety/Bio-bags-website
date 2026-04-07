@@ -15,7 +15,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="src/css/output.css" />
+  <link rel="stylesheet" href="dist/output.css" />
+  <link rel="stylesheet" href="src/css/input.css">
 </head>
 
 <!-- Main Body: Contains the entire website content with background and text colors -->
@@ -36,10 +37,10 @@
       <!-- Desktop Navigation Menu: Links to main pages -->
       <nav class="hidden items-center gap-9 text-sm font-medium text-moss-800 md:flex" aria-label="Primary">
         <a href="index.html" class="transition-colors hover:text-moss-600">Home</a>
-        <a href="about.html" class="transition-colors hover:text-moss-600">About Us</a>
-        <a href="products.html" class="transition-colors hover:text-moss-600">Our Products</a>
-        <a href="printing.html" class="transition-colors hover:text-moss-600">Customized Printing</a>
-        <a href="contact.html" class="transition-colors hover:text-moss-600">Contact</a>
+        <a href="pages/about.html" class="transition-colors hover:text-moss-600">About Us</a>
+        <a href="pages/products.html" class="transition-colors hover:text-moss-600">Our Products</a>
+        <a href="pages/printing.html" class="transition-colors hover:text-moss-600">Customized Printing</a>
+        <a href="pages/contact.html" class="transition-colors hover:text-moss-600">Contact</a>
         <!-- CTA Button: Direct link to quote request section -->
         <a href="#cta"
           class="rounded-full bg-moss-800 px-5 py-2.5 text-white shadow-sm transition-all duration-200 hover:bg-moss-700 hover:shadow-md">Request
@@ -60,9 +61,10 @@
     <div class="hidden border-t border-moss-900/5 bg-white/95 px-5 py-6 backdrop-blur-xl md:hidden" id="mobile-nav">
       <nav class="flex flex-col gap-1 text-base font-medium" aria-label="Mobile">
         <a href="index.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Home</a>
-        <a href="about.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">About Us</a>
-        <a href="products.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Our Products</a>
-        <a href="printing.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Customized
+        <a href="pages/about.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">About Us</a>
+        <a href="pages/products.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Our
+          Products</a>
+        <a href="pages/printing.html" class="rounded-xl px-4 py-3 text-moss-800 transition hover:bg-moss-50">Customized
           Printing</a>
         <!-- Mobile CTA Button: Direct link to quote request -->
         <a href="#cta"
@@ -414,7 +416,7 @@
                 QA</span>
             </div>
             <!-- Link to Printing Page: More details -->
-            <a href="printing.html"
+            <a href="pages/printing.html"
               class="mt-10 inline-flex items-center gap-2 text-sm font-semibold text-moss-200 underline-offset-4 transition hover:text-white hover:underline">
               Read more about printing plans
               <span aria-hidden="true">→</span>
@@ -512,11 +514,11 @@
         <p class="text-xs font-semibold uppercase tracking-[0.2em] text-moss-700">Quick links</p>
         <ul class="mt-4 space-y-3 text-sm font-medium text-moss-800">
           <li><a class="transition hover:text-moss-600" href="index.html">Home</a></li>
-          <li><a class="transition hover:text-moss-600" href="about.html">About</a></li>
-          <li><a class="transition hover:text-moss-600" href="products.html">Products</a></li>
-          <li><a class="transition hover:text-moss-600" href="printing.html">Custom printing</a></li>
-          <li><a class="transition hover:text-moss-600" href="contact.html">Contact</a></li>
-          <li><a class="transition hover:text-moss-600" href="index.html#quote">Request a quote</a></li>
+          <li><a class="transition hover:text-moss-600" href="pages/about.html">About</a></li>
+          <li><a class="transition hover:text-moss-600" href="pages/products.html">Products</a></li>
+          <li><a class="transition hover:text-moss-600" href="pages/printing.html">Custom printing</a></li>
+          <li><a class="transition hover:text-moss-600" href="pages/contact.html">Contact</a></li>
+          <li><a class="transition hover:text-moss-600" href="index.html#cta">Request a quote</a></li>
         </ul>
       </div>
 
