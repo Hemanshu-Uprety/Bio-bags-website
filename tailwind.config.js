@@ -1,11 +1,70 @@
-module.exports = {
-  content: [
-    "./index.html",
-    "./pages/**/*.html",
-    "./js/**/*.js"
-  ],
-  theme: {
-    extend: {},
+/** @type {import('tailwindcss').Config} */
+export const content = ["./*.html", "./pages/**/*.html", "./js/**/*.js"];
+export const darkMode = "class";
+export const theme = {
+  extend: {
+    colors: {
+      primary: "#012d1d",
+      "surface-container-high": "#e6e9e8",
+      "inverse-primary": "#a5d0b9",
+      "surface-container-low": "#f2f4f3",
+      "primary-fixed-dim": "#a5d0b9",
+      "tertiary-fixed": "#ffdcc3",
+      "on-secondary": "#ffffff",
+      "secondary-container": "#d3e8d7",
+      "surface-bright": "#f8faf9",
+      error: "#ba1a1a",
+      "surface-container-lowest": "#ffffff",
+      "tertiary-container": "#59320e",
+      "inverse-surface": "#2e3131",
+      "tertiary-fixed-dim": "#f7ba8b",
+      "error-container": "#ffdad6",
+      "surface-container": "#eceeed",
+      "on-tertiary-container": "#d39a6e",
+      "on-secondary-fixed": "#0e1f15",
+      background: "#f8faf9",
+      "on-background": "#191c1c",
+      "on-surface-variant": "#414844",
+      "on-secondary-fixed-variant": "#394b3f",
+      "secondary-fixed-dim": "#b7cbbc",
+      "on-primary": "#ffffff",
+      "on-primary-fixed": "#002114",
+      "on-tertiary-fixed": "#2f1500",
+      "surface-variant": "#e1e3e2",
+      "on-error-container": "#93000a",
+      "primary-fixed": "#c1ecd4",
+      "secondary-fixed": "#d3e8d7",
+      "surface-dim": "#d8dada",
+      "inverse-on-surface": "#eff1f0",
+      "on-error": "#ffffff",
+      "on-surface": "#191c1c",
+      "on-tertiary-fixed-variant": "#663d18",
+      "on-primary-container": "#86af99",
+      tertiary: "#3e1d00",
+      surface: "#f8faf9",
+      "on-tertiary": "#ffffff",
+      secondary: "#506356",
+      outline: "#717973",
+      "on-secondary-container": "#56695c",
+      "surface-tint": "#3f6653",
+      "primary-container": "#1b4332",
+      "surface-container-highest": "#e1e3e2",
+      "on-primary-fixed-variant": "#274e3d",
+      "outline-variant": "#c1c8c2",
+    },
+
+    borderRadius: {
+      DEFAULT: "0.125rem",
+      lg: "0.25rem",
+      xl: "0.5rem",
+      full: "0.75rem",
+    },
+
+    fontFamily: {
+      headline: ["Manrope", "sans-serif"],
+      body: ["Inter", "sans-serif"],
+      label: ["Inter", "sans-serif"],
+    },
   },
-  plugins: [],
-}
+};
+export const plugins = [];
