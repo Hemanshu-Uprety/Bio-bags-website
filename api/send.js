@@ -13,15 +13,21 @@ export default async function handler(req, res) {
 
   const transporter = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
-    port: 465,
-    secure: true,
+    port: 587,
+    secure: false,
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
     },
+    tls: {
+      rejectUnauthorized: false,
+    },
   });
 
   try {
+    await transporter.verify();
+    console.log("SMTP connection verified");
+
     await transporter.sendMail({
       from: `"ABI Website" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_TO,
@@ -39,7 +45,7 @@ export default async function handler(req, res) {
 
     return res.status(200).json({ message: "Email sent successfully" });
   } catch (error) {
-    console.error(error);
-    return res.status(500).json({ message: "Error sending email" });
+    console.error("FULL ERROR:", error);
+    return res.status(500).json({ message: error.message });
   }
 }
