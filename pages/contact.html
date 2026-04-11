@@ -269,81 +269,78 @@
             </div>
         </section>
 
-        <!-- Contact Section: Quote request form with company information -->
-        <section id="cta" class="scroll-mt-24 py-24 md:py-32 bg-stone-100">
-            <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
-                <!-- Contact Form Header: Introduction to quote request -->
-                <div class="max-w-2xl mx-auto text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-display font-semibold tracking-tight text-moss-950">Get a
-                        Custom Quote
-                    </h2>
-                    <p class="mt-4 text-lg text-moss-800/80">We respond within 24 hours with pricing and availability
-                        for your
-                        specific requirements.</p>
-                </div>
-                <!-- Contact Form: Standardized quote request form -->
-                <form id="contact-form" class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-left"
-                    novalidate>
-                    <!-- Full Name Field: Required customer name input -->
-                    <div class="flex flex-col gap-2">
-                        <label class="text-moss-950 text-sm font-bold" for="full-name">Full Name</label>
-                        <input
-                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
-                            id="full-name" name="full_name" placeholder="e.g. John Doe" required="" type="text" />
-                    </div>
-                    <!-- Company Name Field: Required business name input -->
-                    <div class="flex flex-col gap-2">
-                        <label class="text-moss-950 text-sm font-bold" for="company-name">Company Name</label>
-                        <input
-                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
-                            id="company-name" name="company_name" placeholder="e.g. EcoRetail Ltd" required=""
-                            type="text" />
-                    </div>
-                    <!-- Email Field: Required contact email input -->
-                    <div class="flex flex-col gap-2">
-                        <label class="text-moss-950 text-sm font-bold" for="email-address">Email Address</label>
-                        <input
-                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
-                            id="email-address" name="email" placeholder="name@company.com" required="" type="email" />
-                    </div>
-                    <!-- Phone Field: Optional contact phone input -->
-                    <div class="flex flex-col gap-2">
-                        <label class="text-moss-950 text-sm font-bold" for="phone-number">Phone Number</label>
-                        <input
-                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
-                            id="phone-number" name="phone" placeholder="+977 9XXXXXXXXX" type="tel" />
-                    </div>
-                    <!-- Volume Field: Estimated monthly bag requirements -->
-                    <div class="flex flex-col gap-2 md:col-span-2">
-                        <label class="text-moss-950 text-sm font-bold" for="monthly-volume">Estimated Monthly
-                            Volume</label>
-                        <select
-                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 appearance-none"
-                            id="monthly-volume" name="volume">
-                            <option value="">Select volume range</option>
-                            <option value="1k">Less than 1,000 bags</option>
-                            <option value="1k-10k">1,000 - 10,000 bags</option>
-                            <option value="10k-50k">10,000 - 50,000 bags</option>
-                            <option value="50k+">Over 50,000 bags</option>
-                        </select>
-                    </div>
-                    <!-- Message Field: Additional requirements and details -->
-                    <div class="flex flex-col gap-2 md:col-span-2">
-                        <label class="text-moss-950 text-sm font-bold" for="message">Message</label>
-                        <textarea
-                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 h-32"
-                            id="message" name="message"
-                            placeholder="Tell us about your specific packaging requirements..."></textarea>
-                    </div>
-                    <!-- Submit Button: Form submission for quote request -->
-                    <div class="md:col-span-2 flex justify-center mt-4">
-                        <button type="submit"
-                            class="bg-green-900 text-white px-12 py-4 rounded-xl font-extrabold hover:bg-green-600 transition-all shadow-lg w-full md:w-auto">Request
-                            Custom Quote</button>
-                    </div>
-                </form>
-            </div>
-        </section>
+      <!-- Contact Section: Quote request form with company information -->
+  <section id="cta" class="scroll-mt-24 py-24 md:py-32 bg-stone-100">
+    <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
+      <!-- Contact Form Header: Introduction to quote request -->
+      <div class="max-w-2xl mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-display font-semibold tracking-tight text-moss-950">Get a
+          Custom Quote
+        </h2>
+        <p class="mt-4 text-lg text-moss-800/80">We respond within 24 hours with pricing and availability
+          for your
+          specific requirements.</p>
+      </div>
+      <!-- Contact Form: Standardized quote request form -->
+      <form id="contact-form" class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-left" novalidate>
+        <!-- Full Name Field: Required customer name input -->
+        <div class="flex flex-col gap-2">
+          <label class="text-moss-950 text-sm font-bold" for="full-name">Full Name</label>
+          <input
+            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
+            id="full-name" name="full_name" placeholder="e.g. John Doe" required="" type="text" />
+        </div>
+        <!-- Company Name Field: Required business name input -->
+        <div class="flex flex-col gap-2">
+          <label class="text-moss-950 text-sm font-bold" for="company-name">Company Name</label>
+          <input
+            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
+            id="company-name" name="company_name" placeholder="e.g. EcoRetail Ltd" required="" type="text" />
+        </div>
+        <!-- Email Field: Required contact email input -->
+        <div class="flex flex-col gap-2">
+          <label class="text-moss-950 text-sm font-bold" for="email-address">Email Address</label>
+          <input
+            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
+            id="email-address" name="email" placeholder="name@company.com" required="" type="email" />
+        </div>
+        <!-- Phone Field: Optional contact phone input -->
+        <div class="flex flex-col gap-2">
+          <label class="text-moss-950 text-sm font-bold" for="phone-number">Phone Number</label>
+          <input
+            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
+            id="phone-number" name="phone" placeholder="+977 9XXXXXXXXX" type="tel" />
+        </div>
+        <!-- Volume Field: Estimated monthly bag requirements -->
+        <div class="flex flex-col gap-2 md:col-span-2">
+          <label class="text-moss-950 text-sm font-bold" for="monthly-volume">Estimated Monthly
+            Volume</label>
+          <select
+            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 appearance-none"
+            id="monthly-volume" name="volume">
+            <option value="">Select volume range</option>
+            <option value="1k">Less than 1,000 bags</option>
+            <option value="1k-10k">1,000 - 10,000 bags</option>
+            <option value="10k-50k">10,000 - 50,000 bags</option>
+            <option value="50k+">Over 50,000 bags</option>
+          </select>
+        </div>
+        <!-- Message Field: Additional requirements and details -->
+        <div class="flex flex-col gap-2 md:col-span-2">
+          <label class="text-moss-950 text-sm font-bold" for="message">Message</label>
+          <textarea
+            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 h-32"
+            id="message" name="message" placeholder="Tell us about your specific packaging requirements..."></textarea>
+        </div>
+        <!-- Submit Button: Form submission for quote request -->
+        <div class="md:col-span-2 flex justify-center mt-4">
+          <button type="submit"
+            class="bg-green-900 text-white px-12 py-4 rounded-xl font-extrabold hover:bg-green-600 transition-all shadow-lg w-full md:w-auto">Request
+            Custom Quote</button>
+        </div>
+      </form>
+    </div>
+  </section>
 
         <!-- Direct Email CTA Section: Alternative contact method -->
         <section class="bg-stone-warm py-16 md:py-20">
@@ -351,7 +348,7 @@
                 <div class="text-center">
                     <p class="text-sm text-moss-700">Prefer to reach out directly?</p>
                     <a href=""
-                        class="mt-3 inline-flex items-center justify-center rounded-full bg-moss-800 px-8 py-3 text-sm font-semibold text-white transition hover:bg-moss-700">Email
+                        class="mt-3 inline-flex items-center justify-center rounded-full bg-moss-800 px-8 py-3 text-sm font-semibold text-black transition hover:text-green-600">Email
                         us at contact@abibiobags.com</a>
                 </div>
             </div>
