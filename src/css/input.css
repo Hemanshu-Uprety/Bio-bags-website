@@ -24,3 +24,34 @@ h3,
 .text-shadow-premium {
     text-shadow: 0 4px 12px rgba(1, 45, 29, 0.2);
 }
+
+.hero-pattern {
+    background-color: #f8faf9;
+    background-image: linear-gradient(30deg, #eceeed 12%, transparent 12.5%, transparent 87%, #eceeed 87.5%, #eceeed), linear-gradient(150deg, #eceeed 12%, transparent 12.5%, transparent 87%, #eceeed 87.5%, #eceeed), linear-gradient(30deg, #eceeed 12%, transparent 12.5%, transparent 87%, #eceeed 87.5%, #eceeed), linear-gradient(150deg, #eceeed 12%, transparent 12.5%, transparent 87%, #eceeed 87.5%, #eceeed), linear-gradient(60deg, #eceeed 25%, transparent 25.5%, transparent 75%, #eceeed 75%, #eceeed), linear-gradient(60deg, #eceeed 25%, transparent 25.5%, transparent 75%, #eceeed 75%, #eceeed);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+.floating-label-group {
+    position: relative;
+}
+
+.floating-label-group input:placeholder-shown~label,
+.floating-label-group textarea:placeholder-shown~label {
+    top: 1rem;
+    left: 1rem;
+    font-size: 0.875rem;
+    color: #717973;
+}
+
+.floating-label-group input:focus~label,
+.floating-label-group input:not(:placeholder-shown)~label,
+.floating-label-group textarea:focus~label,
+.floating-label-group textarea:not(:placeholder-shown)~label {
+    top: -0.5rem;
+    left: 0.75rem;
+    font-size: 0.75rem;
+    color: #1B4332;
+    background-color: white;
+    padding: 0 0.25rem;
+}

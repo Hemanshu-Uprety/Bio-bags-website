@@ -83,135 +83,181 @@
         </div>
     </header>
 
-    <main class="max-w-7xl mx-auto px-8 py-20">
-        <div class="mb-20 max-w-3xl">
-            <h1 class="text-5xl md:text-6xl font-extrabold tracking-tighter text-primary mb-6 leading-tight">
-                Architectural Integrity meets <span class="text-on-primary-container">Ecology.</span>
-            </h1>
-            <p class="text-lg text-on-surface-variant font-body leading-relaxed">
-                Connect with our industrial consultants to discuss high-performance biodegradable solutions for your
-                large-scale logistics and manufacturing needs.
+    <!--Hero Section-->
+<section class="relative overflow-hidden hero-pattern border-b border-surface-container py-24" style="background-image: linear-gradient(to right, rgba(248, 250, 249, 0.95), rgba(248, 250, 249, 0.7)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuADZ_h4FBSTJy6KL_n1oyTTJEz7ZqqWZUKqkfGlsv8CPfUoAps-QdKoVDD7UeB8LuZkjkpO4dxzHluBPmdvGNtup4XXheViuttnYSdT6EqVJHshhzvNpCopduDI5j5pc0jlOtW3wBifZdx_Sa7FM_stFn4QpYY_Th9FCiktfJMzlgqx04qOTLk4A17A0gf6koRMqIUhKbHPSPH495xU2rOSkmbN2KnKoX9PCOOnFA3u0TLIW9KXe53XK2LVL1l_gzs_hlgV-VmZTfE'); background-size: cover; background-position: center;">
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<div class="max-w-4xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-container/10 border border-primary-container/20 mb-8">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-primary-container font-headline">Industrial Standards Excellence</span>
+</div>
+<h1 class="text-6xl md:text-7xl font-extrabold tracking-tighter text-primary mb-8 leading-[1.1]">
+                Architectural Integrity meets <span class="text-primary-container relative">Ecology.</span>
+</h1>
+<p class="text-xl text-on-surface-variant font-body leading-relaxed max-w-2xl">
+                Connect with our industrial consultants to discuss high-performance biodegradable solutions for your large-scale logistics and manufacturing needs.
             </p>
-        </div>
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
-            <div class="lg:col-span-7 bg-surface-container-lowest p-10 rounded-xl shadow-sm">
-                <h2 class="text-2xl font-bold text-primary mb-8 tracking-tight">Project Inquiry</h2>
-                <form class="space-y-6" id="contact-form">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="space-y-2">
-                            <label class="block text-sm font-medium text-on-surface-variant font-label">Full
-                                Name</label>
+</div>
+</div>
+</section>
+
+    <main class="max-w-7xl mx-auto px-8 py-24">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-20 items-start">
+            <!-- Inquiry Form Column -->
+            <div class="lg:col-span-7 space-y-12">
+                <div class="bg-white p-12 rounded-2xl shadow-xl shadow-primary/5 border border-surface-container">
+                    <div class="flex justify-between items-end mb-10">
+                        <div>
+                            <h2 class="text-3xl font-extrabold text-primary tracking-tight mb-2">Project Inquiry</h2>
+                            <p class="text-on-surface-variant text-sm">Tell us about your volume requirements and
+                                material specifications.</p>
+                        </div>
+                        <div class="hidden sm:block">
+                            <span
+                                class="material-symbols-outlined text-4xl text-primary-container/20">engineering</span>
+                        </div>
+                    </div>
+                    <form class="space-y-8">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="floating-label-group">
+                                <input
+                                    class="w-full px-4 py-4 bg-white border-b-2 border-surface-container-high focus:border-primary-container focus:ring-0 transition-all duration-300 outline-none placeholder-transparent"
+                                    id="full-name" placeholder="Full Name" type="text" />
+                                <label class="absolute transition-all duration-300 pointer-events-none"
+                                    for="full-name">Full Name</label>
+                            </div>
+                            <div class="floating-label-group">
+                                <input
+                                    class="w-full px-4 py-4 bg-white border-b-2 border-surface-container-high focus:border-primary-container focus:ring-0 transition-all duration-300 outline-none placeholder-transparent"
+                                    id="email" placeholder="Business Email" type="email" />
+                                <label class="absolute transition-all duration-300 pointer-events-none"
+                                    for="email">Business Email</label>
+                            </div>
+                        </div>
+                        <div class="floating-label-group">
                             <input
-                                class="w-full px-4 py-3 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary-fixed focus:bg-surface-container-lowest transition-all duration-200 outline-none placeholder:text-outline-variant/60"
-                                placeholder="John Doe" type="text" />
+                                class="w-full px-4 py-4 bg-white border-b-2 border-surface-container-high focus:border-primary-container focus:ring-0 transition-all duration-300 outline-none placeholder-transparent"
+                                id="phone" placeholder="Phone Number" type="tel" />
+                            <label class="absolute transition-all duration-300 pointer-events-none" for="phone">Phone
+                                Number</label>
                         </div>
-                        <div class="space-y-2">
-                            <label class="block text-sm font-medium text-on-surface-variant font-label">Business
-                                Email</label>
-                            <input
-                                class="w-full px-4 py-3 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary-fixed focus:bg-surface-container-lowest transition-all duration-200 outline-none placeholder:text-outline-variant/60"
-                                placeholder="j.doe@industrial.com" type="email" />
+                        <div class="floating-label-group">
+                            <textarea
+                                class="w-full px-4 py-4 bg-white border-b-2 border-surface-container-high focus:border-primary-container focus:ring-0 transition-all duration-300 outline-none placeholder-transparent resize-none"
+                                id="message" placeholder="Message" rows="4"></textarea>
+                            <label class="absolute transition-all duration-300 pointer-events-none"
+                                for="message">Message / Specification Requirements</label>
                         </div>
-                    </div>
-                    <div class="space-y-2">
-                        <label class="block text-sm font-medium text-on-surface-variant font-label">Phone Number</label>
-                        <input
-                            class="w-full px-4 py-3 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary-fixed focus:bg-surface-container-lowest transition-all duration-200 outline-none placeholder:text-outline-variant/60"
-                            placeholder="+1 (555) 000-0000" type="tel" />
-                    </div>
-                    <div class="space-y-2">
-                        <label class="block text-sm font-medium text-on-surface-variant font-label">Message /
-                            Specification Requirements</label>
-                        <textarea
-                            class="w-full px-4 py-3 bg-surface-container-low border-none rounded-lg focus:ring-2 focus:ring-primary-fixed focus:bg-surface-container-lowest transition-all duration-200 outline-none placeholder:text-outline-variant/60 resize-none"
-                            placeholder="Tell us about your volume requirements and material specifications..."
-                            rows="5"></textarea>
-                    </div>
-                    <button
-                        class="w-full md:w-auto px-10 py-4 round-full bg-primary text-on-primary font-bold rounded-lg hover:bg-primary-container transition-all duration-300 shadow-lg shadow-primary/10"
-                        type="submit">
-                        Submit Inquiry
-                    </button>
-                </form>
-            </div>
-            <div class="lg:col-span-5 space-y-12">
-                <section class="space-y-8">
-                    <div class="space-y-6">
-                        <div class="flex items-start gap-4">
-                            <div
-                                class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center flex-shrink-0">
-                                <span class="material-symbols-outlined text-primary">location_on</span>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-primary mb-1">Industrial Headquarters</h3>
-                                <p class="text-on-surface-variant text-sm leading-relaxed">
-                                    8822 Ecology Way, Suite 400<br />
-                                    Sustainable District, Seattle, WA 98101
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <div
-                                class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center flex-shrink-0">
-                                <span class="material-symbols-outlined text-primary">call</span>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-primary mb-1">Direct Line</h3>
-                                <p class="text-on-surface-variant text-sm">+1 (800) BIO-PACK</p>
-                                <p class="text-outline text-xs mt-1">Mon-Fri: 8:00 AM – 6:00 PM PST</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <div
-                                class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center flex-shrink-0">
-                                <span class="material-symbols-outlined text-primary">alternate_email</span>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-primary mb-1">Industrial Relations</h3>
-                                <p class="text-on-surface-variant text-sm">logistics@biopack-industrial.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="h-64 bg-surface-container-high rounded-xl overflow-hidden relative grayscale hover:grayscale-0 transition-all duration-700">
-                        <img class="w-full h-full object-cover"
-                            data-alt="Minimalist grayscale satellite view map of an industrial district in Seattle with clean geometric lines and soft contrast"
-                            data-location="Seattle, WA"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiaIS0uXXIIr7jzIFf_DSdAs59F_BpjHKVWR__3jiafxUvoEow7fF2bX-ItuUuVDUmekAP38Oa8Z-rfr__03YdQX3DSeZ_aWgX223A6PmFKK16i3clnDoIXYsP4wobSLV7Yndknjk3HO7UrPw_ykBQEn3ZHE5LAVKZFOaKlOMkq3XceDE99xDUJxEkBcb-Zp_zxCdIb2_3Yndi5MfD0GjQQXfKtM-uDXm0EZszj-AUU1sm12gyJEviBrKUp_ePy92BPCdifTuuxEE" />
-                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-                            <div class="w-8 h-8 bg-primary rounded-full border-4 border-white animate-pulse"></div>
-                        </div>
-                    </div>
-                </section>
-                <section class="p-8 bg-surface-container-low rounded-xl">
+                        <button
+                            class="w-full bg-primary-container text-white font-bold py-5 rounded-xl hover:bg-primary transition-all duration-300 shadow-lg shadow-primary-container/20 flex items-center justify-center gap-3 group"
+                            type="submit">
+                            <span>Submit Project Brief</span>
+                            <span
+                                class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+                        </button>
+                    </form>
+                </div>
+                <!-- Horizontal Certifications -->
+                <section class="py-8 border-t border-surface-container">
                     <h3
-                        class="font-headline font-extrabold text-sm uppercase tracking-widest text-on-surface-variant mb-6">
-                        Global Certifications</h3>
-                    <div
-                        class="grid grid-cols-3 gap-6 opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
-                        <div class="flex flex-col items-center text-center space-y-2">
-                            <span class="material-symbols-outlined text-3xl text-primary"
+                        class="font-headline font-bold text-[10px] uppercase tracking-[0.2em] text-outline mb-10 text-center">
+                        Certified Industrial Standards</h3>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div
+                            class="flex flex-col items-center p-6 rounded-xl bg-surface-container-lowest border border-surface-container-high transition-all duration-300 hover:border-primary-container/30 hover:shadow-md group">
+                            <span
+                                class="material-symbols-outlined text-3xl text-primary/40 group-hover:text-primary-container transition-colors mb-4"
                                 style="font-variation-settings: 'FILL' 1;">eco</span>
                             <span
-                                class="text-[10px] font-bold uppercase tracking-tighter text-on-surface-variant font-headline">BPI
+                                class="text-[11px] font-extrabold uppercase tracking-tighter text-on-surface-variant font-headline text-center">BPI
                                 Compostable</span>
                         </div>
-                        <div class="flex flex-col items-center text-center space-y-2">
-                            <span class="material-symbols-outlined text-3xl text-primary"
+                        <div
+                            class="flex flex-col items-center p-6 rounded-xl bg-surface-container-lowest border border-surface-container-high transition-all duration-300 hover:border-primary-container/30 hover:shadow-md group">
+                            <span
+                                class="material-symbols-outlined text-3xl text-primary/40 group-hover:text-primary-container transition-colors mb-4"
                                 style="font-variation-settings: 'FILL' 1;">verified</span>
                             <span
-                                class="text-[10px] font-bold uppercase tracking-tighter text-on-surface-variant font-headline">ISO
+                                class="text-[11px] font-extrabold uppercase tracking-tighter text-on-surface-variant font-headline text-center">ISO
                                 14001</span>
                         </div>
-                        <div class="flex flex-col items-center text-center space-y-2">
-                            <span class="material-symbols-outlined text-3xl text-primary"
+                        <div
+                            class="flex flex-col items-center p-6 rounded-xl bg-surface-container-lowest border border-surface-container-high transition-all duration-300 hover:border-primary-container/30 hover:shadow-md group">
+                            <span
+                                class="material-symbols-outlined text-3xl text-primary/40 group-hover:text-primary-container transition-colors mb-4"
                                 style="font-variation-settings: 'FILL' 1;">psychology_alt</span>
                             <span
-                                class="text-[10px] font-bold uppercase tracking-tighter text-on-surface-variant font-headline">ASTM
+                                class="text-[11px] font-extrabold uppercase tracking-tighter text-on-surface-variant font-headline text-center">ASTM
                                 D6400</span>
                         </div>
                     </div>
                 </section>
+            </div>
+            <!-- Contact Cards & Map Column -->
+            <div class="lg:col-span-5 space-y-8">
+                <div class="space-y-4">
+                    <div
+                        class="group p-6 rounded-2xl bg-white border border-surface-container hover:border-primary-container/40 transition-all duration-300 flex gap-6 items-start">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-primary-container/5 flex items-center justify-center flex-shrink-0 group-hover:bg-primary-container group-hover:text-white transition-all duration-300">
+                            <span
+                                class="material-symbols-outlined text-primary-container group-hover:text-white">location_on</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-primary mb-1 text-lg">Industrial Headquarters</h3>
+                            <p class="text-on-surface-variant text-sm leading-relaxed">Nepal, Jhapa, Birtamode, 200
+                                meter inside<br />opposite of Birtamode Eye Hospital</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group p-6 rounded-2xl bg-white border border-surface-container hover:border-primary-container/40 transition-all duration-300 flex gap-6 items-start">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-primary-container/5 flex items-center justify-center flex-shrink-0 group-hover:bg-primary-container group-hover:text-white transition-all duration-300">
+                            <span
+                                class="material-symbols-outlined text-primary-container group-hover:text-white">call</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-primary mb-1 text-lg">Direct Line</h3>
+                            <p class="text-on-surface-variant text-sm font-medium">+977 9705080352</p>
+                            <p class="text-outline text-xs mt-1">Mon-Fri: 8:00 AM – 6:00 PM PST</p>
+                        </div>
+                    </div>
+                    <div
+                        class="group p-6 rounded-2xl bg-white border border-surface-container hover:border-primary-container/40 transition-all duration-300 flex gap-6 items-start">
+                        <div
+                            class="w-14 h-14 rounded-xl bg-primary-container/5 flex items-center justify-center flex-shrink-0 group-hover:bg-primary-container group-hover:text-white transition-all duration-300">
+                            <span
+                                class="material-symbols-outlined text-primary-container group-hover:text-white">alternate_email</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-primary mb-1 text-lg">Industrial Relations</h3>
+                            <p class="text-on-surface-variant text-sm">info@abibiodegradable.com.np</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Integrated Modern Map -->
+                <div class="h-80 bg-inverse-surface rounded-2xl overflow-hidden relative group">
+                    <img class="w-full h-full object-cover opacity-40 mix-blend-luminosity group-hover:opacity-60 transition-opacity duration-700"
+                        data-alt="Modern dark-themed architectural map of an industrial district in Seattle"
+                        data-location="Seattle, WA"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiaIS0uXXIIr7jzIFf_DSdAs59F_BpjHKVWR__3jiafxUvoEow7fF2bX-ItuUuVDUmekAP38Oa8Z-rfr__03YdQX3DSeZ_aWgX223A6PmFKK16i3clnDoIXYsP4wobSLV7Yndknjk3HO7UrPw_ykBQEn3ZHE5LAVKZFOaKlOMkq3XceDE99xDUJxEkBcb-Zp_zxCdIb2_3Yndi5MfD0GjQQXfKtM-uDXm0EZszj-AUU1sm12gyJEviBrKUp_ePy92BPCdifTuuxEE" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 to-transparent"></div>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="relative">
+                            <div class="w-16 h-16 bg-primary-container/20 rounded-full animate-ping absolute -inset-4">
+                            </div>
+                            <div
+                                class="w-8 h-8 bg-primary-container rounded-full border-4 border-white shadow-xl relative z-10">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-6 left-6 right-6">
+                        <div class="bg-white/10 backdrop-blur-md px-4 py-3 rounded-lg border border-white/20">
+                            <p class="text-[10px] uppercase tracking-widest text-white font-bold">Industrial Center One
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -269,78 +315,81 @@
             </div>
         </section>
 
-      <!-- Contact Section: Quote request form with company information -->
-  <section id="cta" class="scroll-mt-24 py-24 md:py-32 bg-stone-100">
-    <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
-      <!-- Contact Form Header: Introduction to quote request -->
-      <div class="max-w-2xl mx-auto text-center mb-16">
-        <h2 class="text-3xl md:text-4xl font-display font-semibold tracking-tight text-moss-950">Get a
-          Custom Quote
-        </h2>
-        <p class="mt-4 text-lg text-moss-800/80">We respond within 24 hours with pricing and availability
-          for your
-          specific requirements.</p>
-      </div>
-      <!-- Contact Form: Standardized quote request form -->
-      <form id="contact-form" class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-left" novalidate>
-        <!-- Full Name Field: Required customer name input -->
-        <div class="flex flex-col gap-2">
-          <label class="text-moss-950 text-sm font-bold" for="full-name">Full Name</label>
-          <input
-            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
-            id="full-name" name="full_name" placeholder="e.g. John Doe" required="" type="text" />
-        </div>
-        <!-- Company Name Field: Required business name input -->
-        <div class="flex flex-col gap-2">
-          <label class="text-moss-950 text-sm font-bold" for="company-name">Company Name</label>
-          <input
-            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
-            id="company-name" name="company_name" placeholder="e.g. EcoRetail Ltd" required="" type="text" />
-        </div>
-        <!-- Email Field: Required contact email input -->
-        <div class="flex flex-col gap-2">
-          <label class="text-moss-950 text-sm font-bold" for="email-address">Email Address</label>
-          <input
-            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
-            id="email-address" name="email" placeholder="name@company.com" required="" type="email" />
-        </div>
-        <!-- Phone Field: Optional contact phone input -->
-        <div class="flex flex-col gap-2">
-          <label class="text-moss-950 text-sm font-bold" for="phone-number">Phone Number</label>
-          <input
-            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
-            id="phone-number" name="phone" placeholder="+977 9XXXXXXXXX" type="tel" />
-        </div>
-        <!-- Volume Field: Estimated monthly bag requirements -->
-        <div class="flex flex-col gap-2 md:col-span-2">
-          <label class="text-moss-950 text-sm font-bold" for="monthly-volume">Estimated Monthly
-            Volume</label>
-          <select
-            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 appearance-none"
-            id="monthly-volume" name="volume">
-            <option value="">Select volume range</option>
-            <option value="1k">Less than 1,000 bags</option>
-            <option value="1k-10k">1,000 - 10,000 bags</option>
-            <option value="10k-50k">10,000 - 50,000 bags</option>
-            <option value="50k+">Over 50,000 bags</option>
-          </select>
-        </div>
-        <!-- Message Field: Additional requirements and details -->
-        <div class="flex flex-col gap-2 md:col-span-2">
-          <label class="text-moss-950 text-sm font-bold" for="message">Message</label>
-          <textarea
-            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 h-32"
-            id="message" name="message" placeholder="Tell us about your specific packaging requirements..."></textarea>
-        </div>
-        <!-- Submit Button: Form submission for quote request -->
-        <div class="md:col-span-2 flex justify-center mt-4">
-          <button type="submit"
-            class="bg-green-900 text-white px-12 py-4 rounded-xl font-extrabold hover:bg-green-600 transition-all shadow-lg w-full md:w-auto">Request
-            Custom Quote</button>
-        </div>
-      </form>
-    </div>
-  </section>
+        <!-- Contact Section: Quote request form with company information -->
+        <section id="cta" class="scroll-mt-24 py-24 md:py-32 bg-stone-100">
+            <div class="mx-auto max-w-7xl px-5 md:px-8 lg:px-10">
+                <!-- Contact Form Header: Introduction to quote request -->
+                <div class="max-w-2xl mx-auto text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-display font-semibold tracking-tight text-moss-950">Get a
+                        Custom Quote
+                    </h2>
+                    <p class="mt-4 text-lg text-moss-800/80">We respond within 24 hours with pricing and availability
+                        for your
+                        specific requirements.</p>
+                </div>
+                <!-- Contact Form: Standardized quote request form -->
+                <form id="contact-form" class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-left"
+                    novalidate>
+                    <!-- Full Name Field: Required customer name input -->
+                    <div class="flex flex-col gap-2">
+                        <label class="text-moss-950 text-sm font-bold" for="full-name">Full Name</label>
+                        <input
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
+                            id="full-name" name="full_name" placeholder="e.g. John Doe" required="" type="text" />
+                    </div>
+                    <!-- Company Name Field: Required business name input -->
+                    <div class="flex flex-col gap-2">
+                        <label class="text-moss-950 text-sm font-bold" for="company-name">Company Name</label>
+                        <input
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
+                            id="company-name" name="company_name" placeholder="e.g. EcoRetail Ltd" required=""
+                            type="text" />
+                    </div>
+                    <!-- Email Field: Required contact email input -->
+                    <div class="flex flex-col gap-2">
+                        <label class="text-moss-950 text-sm font-bold" for="email-address">Email Address</label>
+                        <input
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
+                            id="email-address" name="email" placeholder="name@company.com" required="" type="email" />
+                    </div>
+                    <!-- Phone Field: Optional contact phone input -->
+                    <div class="flex flex-col gap-2">
+                        <label class="text-moss-950 text-sm font-bold" for="phone-number">Phone Number</label>
+                        <input
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-green-600 text-moss-950"
+                            id="phone-number" name="phone" placeholder="+977 9XXXXXXXXX" type="tel" />
+                    </div>
+                    <!-- Volume Field: Estimated monthly bag requirements -->
+                    <div class="flex flex-col gap-2 md:col-span-2">
+                        <label class="text-moss-950 text-sm font-bold" for="monthly-volume">Estimated Monthly
+                            Volume</label>
+                        <select
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 appearance-none"
+                            id="monthly-volume" name="volume">
+                            <option value="">Select volume range</option>
+                            <option value="1k">Less than 1,000 bags</option>
+                            <option value="1k-10k">1,000 - 10,000 bags</option>
+                            <option value="10k-50k">10,000 - 50,000 bags</option>
+                            <option value="50k+">Over 50,000 bags</option>
+                        </select>
+                    </div>
+                    <!-- Message Field: Additional requirements and details -->
+                    <div class="flex flex-col gap-2 md:col-span-2">
+                        <label class="text-moss-950 text-sm font-bold" for="message">Message</label>
+                        <textarea
+                            class="w-full px-6 py-3 rounded-xl border border-moss-900/20 bg-white focus:ring-2 focus:ring-moss-600 focus:border-moss-600 text-moss-950 h-32"
+                            id="message" name="message"
+                            placeholder="Tell us about your specific packaging requirements..."></textarea>
+                    </div>
+                    <!-- Submit Button: Form submission for quote request -->
+                    <div class="md:col-span-2 flex justify-center mt-4">
+                        <button type="submit"
+                            class="bg-green-900 text-white px-12 py-4 rounded-xl font-extrabold hover:bg-green-600 transition-all shadow-lg w-full md:w-auto">Request
+                            Custom Quote</button>
+                    </div>
+                </form>
+            </div>
+        </section>
 
         <!-- Direct Email CTA Section: Alternative contact method -->
         <section class="bg-stone-warm py-16 md:py-20">
